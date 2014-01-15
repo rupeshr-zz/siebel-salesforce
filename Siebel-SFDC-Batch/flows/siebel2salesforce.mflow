@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mule-configuration xmlns="http://www.mulesoft.com/tooling/messageflow" name="siebel2salesforce">
+    <global-element name="Salesforce" type="http://www.mulesoft.org/schema/mule/sfdc/config" entity-id="Salesforce#1">
+        <properties>
+            <property name="name" value="Salesforce"/>
+            <property name="username" value="jose.amenta@mulesoft.com.devel"/>
+            <property name="password" value="Jose.1234"/>
+            <property name="securityToken" value="hBMiN2a99BTcDbaFiUPSdAAL"/>
+            <property name="url" value="https://test.salesforce.com/services/Soap/u/28.0"/>
+            <property name="proxyHost"/>
+            <property name="proxyPort"/>
+            <property name="proxyUsername"/>
+            <property name="proxyPassword"/>
+            <property name="sessionId"/>
+            <property name="serviceEndpoint"/>
+            <property name="auxiliary;metauseMetaData"/>
+            <property name="timeObjectStore-ref"/>
+            <property name="assignmentRuleId"/>
+            <property name="clientId"/>
+            <property name="batchSobjectMaxDepth"/>
+            <property name="allowFieldTruncationSupport"/>
+            <property name="useDefaultRule"/>
+            <property name="auxiliary;index" value="1"/>
+            <property-collection name="@http://www.mulesoft.org/schema/mule/sfdc/connection-pooling-profile;0">
+                <property name="exhaustedAction" value="WHEN_EXHAUSTED_GROW"/>
+                <property name="auxiliary;wrapIn" value="2"/>
+                <property name="auxiliary;index" value="2"/>
+                <property name="initialisationPolicy" value="INITIALISE_ONE"/>
+            </property-collection>
+        </properties>
+    </global-element>
+    <global-element name="Oracle Siebel Business Object" type="http://www.mulesoft.org/schema/mule/siebel/config" entity-id="Oracle Siebel Business Object#1">
+        <properties>
+            <property name="name" value="Oracle_Siebel_Business_Object"/>
+            <property name="user" value="SADMIN"/>
+            <property name="password" value="SADMIN"/>
+            <property name="server" value="23.21.233.175"/>
+            <property name="port"/>
+            <property name="serverName" value="SBA_82"/>
+            <property name="objectManager" value="EAIObjMgr_enu"/>
+            <property name="language"/>
+            <property name="fileEncoding"/>
+            <property name="auxiliary;metauseMetaData"/>
+            <property name="defaultViewModeBusComp"/>
+            <property name="dataSenseFilterQueryBusComp" value="[Name] = 'Contact'"/>
+            <property name="dataSenseHierarchicalDiscovery"/>
+            <property name="defaultViewModeBusObjects"/>
+            <property name="dataSenseFilterQueryBusObjects" value="[Name] = 'Contact'"/>
+            <property name="auxiliary;index" value="3"/>
+            <property-collection name="@http://www.mulesoft.org/schema/mule/siebel/connection-pooling-profile;0">
+                <property name="exhaustedAction" value="WHEN_EXHAUSTED_GROW"/>
+                <property name="auxiliary;wrapIn" value="4"/>
+                <property name="auxiliary;index" value="4"/>
+                <property name="initialisationPolicy" value="INITIALISE_ONE"/>
+            </property-collection>
+        </properties>
+    </global-element>
+    <global-element name="listcontact.contact_to_listcontact" type="http://www.mulesoft.org/schema/mule/ee/data-mapper/config" entity-id="DataMapper#1">
+        <properties>
+            <property name="name" value="listcontact.contact_to_listcontact"/>
+            <property name="transformationGraphPath" value="list&lt;contact.contact&gt;_to_list&lt;contact&gt;.grf"/>
+            <property name="auxiliary;index" value="5"/>
+        </properties>
+    </global-element>
+    <global-element name="listcontact_to_contact_io" type="http://www.mulesoft.org/schema/mule/ee/data-mapper/config" entity-id="DataMapper#2">
+        <properties>
+            <property name="name" value="listcontact_to_contact_io"/>
+            <property name="transformationGraphPath" value="list&lt;contact&gt;_to_contact_io.grf"/>
+            <property name="auxiliary;index" value="6"/>
+        </properties>
+    </global-element>
+    <flow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="container" SubFlow="false" type="http://www.mulesoft.org/schema/mule/batch/job" entity-id="Batch#1">
+        <properties>
+            <property name="name" value="salesforce2siebelBatch1"/>
+            <property name="max-failed-records"/>
+            <property name="auxiliary;index" value="7"/>
+            <property-collection name="@http://www.mulesoft.org/schema/mule/batch/threading-profile;0">
+                <property name="poolExhaustedAction" value="WAIT"/>
+                <property name="auxiliary;wrapIn" value="8"/>
+                <property name="auxiliary;index" value="8"/>
+            </property-collection>
+        </properties>
+        <lane xsi:type="nestedContainer" name="Input" type="http://www.mulesoft.org/schema/mule/batch/input" hadOnlyOneElement="false" index="0" isChoiceOtherwiseLane="false" entity-id="88b16c86-a00e-43e4-ab40-bba9484a953b">
+            <endpoint direction="Inbound" message-exchange-pattern="RequestResponse" name="HTTP" type="http://www.mulesoft.org/schema/mule/http/endpoint" entity-id="HTTP#1">
+                <properties>
+                    <property name="exchange-pattern" value="one-way"/>
+                    <property name="org.mule.tooling.ui.modules.core.widgets.meta.ModeAttribute" value="http://www.mulesoft.org/schema/mule/http/endpoint"/>
+                    <property name="httpLabel"/>
+                    <property name="host" value="localhost"/>
+                    <property name="port" value="8081"/>
+                    <property name="path"/>
+                    <property name="method"/>
+                    <property name="businessEventsLabel"/>
+                    <property name="tracking:enable-default-events"/>
+                    <property name="address"/>
+                    <property name="encoding"/>
+                    <property name="disableTransportTransformer"/>
+                    <property name="mimeType"/>
+                    <property name="responseTimeout"/>
+                    <property name="followRedirects"/>
+                    <property name="connector-ref"/>
+                    <property name="ref"/>
+                    <property name="transformer-refs"/>
+                    <property name="responseTransformer-refs"/>
+                    <property name="user"/>
+                    <property name="password"/>
+                    <property name="contentType"/>
+                    <property name="keep-alive"/>
+                    <property name="auxiliary;index" value="10"/>
+                </properties>
+            </endpoint>
+            <pattern name="Oracle Siebel Business Object" type="http://www.mulesoft.org/schema/mule/siebel/siebel-connector" entity-id="Oracle Siebel Business Object#2">
+                <properties>
+                    <property name="org.mule.tooling.ui.modules.core.widgets.meta.ModeAttribute" value="http://www.mulesoft.org/schema/mule/siebel/query-business-components"/>
+                    <property name="config-ref" value="Oracle_Siebel_Business_Object"/>
+                    <property name="businessObjectComponentType" value="Contact.Contact"/>
+                    <property name="searchExpression"/>
+                    <property name="viewMode"/>
+                    <property name=""/>
+                    <property name="user"/>
+                    <property name="password"/>
+                    <property name="server"/>
+                    <property name="port"/>
+                    <property name="serverName"/>
+                    <property name="objectManager"/>
+                    <property name="language"/>
+                    <property name="fileEncoding"/>
+                    <property name="auxiliary;index" value="11"/>
+                    <property-collection name="@http://www.mulesoft.org/schema/mule/siebel/query-business-components-fields-to-retrieves;0">
+                        <property name="auxiliary;wrapIn" value="12"/>
+                        <property name="auxiliary;index" value="12"/>
+                        <property-collection name="@http://www.mulesoft.org/schema/mule/siebel/query-business-components-fields-to-retrieve;3">
+                            <property name="value" value="First Name"/>
+                            <property name="auxiliary;wrapIn" value="15"/>
+                            <property name="auxiliary;index" value="15"/>
+                        </property-collection>
+                        <property-collection name="@http://www.mulesoft.org/schema/mule/siebel/query-business-components-fields-to-retrieve;2">
+                            <property name="value" value="Email Address"/>
+                            <property name="auxiliary;wrapIn" value="14"/>
+                            <property name="auxiliary;index" value="14"/>
+                        </property-collection>
+                        <property-collection name="@http://www.mulesoft.org/schema/mule/siebel/query-business-components-fields-to-retrieve;5">
+                            <property name="value" value="Personal Contact"/>
+                            <property name="auxiliary;wrapIn" value="17"/>
+                            <property name="auxiliary;index" value="17"/>
+                        </property-collection>
+                        <property-collection name="@http://www.mulesoft.org/schema/mule/siebel/query-business-components-fields-to-retrieve;4">
+                            <property name="value" value="Primary Organization"/>
+                            <property name="auxiliary;wrapIn" value="16"/>
+                            <property name="auxiliary;index" value="16"/>
+                        </property-collection>
+                        <property-collection name="@http://www.mulesoft.org/schema/mule/siebel/query-business-components-fields-to-retrieve;7">
+                            <property name="value" value="Account Integration Id"/>
+                            <property name="auxiliary;wrapIn" value="19"/>
+                            <property name="auxiliary;index" value="19"/>
+                        </property-collection>
+                        <property-collection name="@http://www.mulesoft.org/schema/mule/siebel/query-business-components-fields-to-retrieve;6">
+                            <property name="value" value="Employee Number"/>
+                            <property name="auxiliary;wrapIn" value="18"/>
+                            <property name="auxiliary;index" value="18"/>
+                        </property-collection>
+                        <property-collection name="@http://www.mulesoft.org/schema/mule/siebel/query-business-components-fields-to-retrieve;1">
+                            <property name="value" value="Last Name"/>
+                            <property name="auxiliary;wrapIn" value="13"/>
+                            <property name="auxiliary;index" value="13"/>
+                        </property-collection>
+                    </property-collection>
+                </properties>
+            </pattern>
+            <pattern name="Map to SFDC" type="http://www.mulesoft.org/schema/mule/ee/data-mapper/data-mapper-connector" entity-id="DataMapper#3">
+                <properties>
+                    <property name="org.mule.tooling.ui.modules.core.widgets.meta.ModeAttribute" value="http://www.mulesoft.org/schema/mule/ee/data-mapper/transform"/>
+                    <property name="config-ref" value="listcontact.contact_to_listcontact"/>
+                    <property name="input-ref"/>
+                    <property name="returnClass"/>
+                    <property name="stream"/>
+                    <property name="pipeSize"/>
+                    <property name="auxiliary;index" value="20"/>
+                </properties>
+            </pattern>
+            <properties>
+                <property name="auxiliary;index" value="9"/>
+            </properties>
+        </lane>
+        <lane xsi:type="nestedContainer" name="Process Records" type="http://www.mulesoft.org/schema/mule/batch/process-records" hadOnlyOneElement="false" index="0" isChoiceOtherwiseLane="false" entity-id="f244ffb3-a4e1-41ac-baa9-64e75e5c05b8">
+            <scope type="http://www.mulesoft.org/schema/mule/batch/step" entity-id="Batch Step#1">
+                <properties>
+                    <property name="name" value="Batch_Step"/>
+                    <property name="filter-expression"/>
+                    <property name="accept-policy"/>
+                    <property name="auxiliary;index" value="22"/>
+                </properties>
+                <compartment entity-id="compartment#1">
+                    <lane hadOnlyOneElement="false" index="0" isChoiceOtherwiseLane="false" entity-id="compartment-lane#1">
+                        <scope name="Batch Commit" type="http://www.mulesoft.org/schema/mule/batch/commit" entity-id="Batch Commit#1">
+                            <properties>
+<property name="size" value="5"/>
+<property name="auxiliary;index" value="23"/>
+                            </properties>
+                            <compartment entity-id="compartment#2">
+<lane hadOnlyOneElement="false" index="0" isChoiceOtherwiseLane="false" entity-id="compartment-lane#2">
+    <pattern name="Logger" type="http://www.mulesoft.org/schema/mule/core/logger" entity-id="Logger#1">
+        <properties>
+            <property name="message" value="Committing next batch"/>
+            <property name="level" value="INFO"/>
+            <property name="category"/>
+            <property name="auxiliary;index" value="24"/>
+        </properties>
+    </pattern>
+    <pattern name="Salesforce" type="http://www.mulesoft.org/schema/mule/sfdc/sfdc-connector" entity-id="Salesforce#2">
+        <properties>
+            <property name="org.mule.tooling.ui.modules.core.widgets.meta.ModeAttribute" value="http://www.mulesoft.org/schema/mule/sfdc/create"/>
+            <property name="config-ref" value="Salesforce"/>
+            <property name="type" value="Contact"/>
+            <property name=""/>
+            <property name="username"/>
+            <property name="password"/>
+            <property name="securityToken"/>
+            <property name="url"/>
+            <property name="proxyHost"/>
+            <property name="proxyPort"/>
+            <property name="proxyUsername"/>
+            <property name="proxyPassword"/>
+            <property name="sessionId"/>
+            <property name="serviceEndpoint"/>
+            <property name="accessTokenId"/>
+            <property name="auxiliary;index" value="25"/>
+            <property-collection name="@http://www.mulesoft.org/schema/mule/sfdc/create-objectss;0">
+                <property name="ref" value="#[payload]"/>
+                <property name="auxiliary;wrapIn" value="26"/>
+                <property name="auxiliary;index" value="26"/>
+            </property-collection>
+        </properties>
+    </pattern>
+</lane>
+                            </compartment>
+                        </scope>
+                    </lane>
+                </compartment>
+            </scope>
+            <properties>
+                <property name="auxiliary;index" value="21"/>
+            </properties>
+        </lane>
+        <lane xsi:type="nestedContainer" name="On Complete" type="http://www.mulesoft.org/schema/mule/batch/on-complete" hadOnlyOneElement="false" index="0" isChoiceOtherwiseLane="false" entity-id="78b76435-db30-4a63-8c5b-c535f12035ce">
+            <pattern name="Logger" type="http://www.mulesoft.org/schema/mule/core/logger" entity-id="Logger#2">
+                <properties>
+                    <property name="message" value="Failed Records: #[payload.failedRecords] ; Successful Records: #[payload.successfulRecords] "/>
+                    <property name="level" value="INFO"/>
+                    <property name="category"/>
+                    <property name="auxiliary;index" value="28"/>
+                </properties>
+            </pattern>
+            <properties>
+                <property name="auxiliary;index" value="27"/>
+            </properties>
+        </lane>
+    </flow>
+</mule-configuration>

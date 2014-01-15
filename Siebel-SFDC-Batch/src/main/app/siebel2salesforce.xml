@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:json="http://www.mulesoft.org/schema/mule/json" xmlns:siebel="http://www.mulesoft.org/schema/mule/siebel" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:siebel-io="http://www.mulesoft.org/schema/mule/siebel-io" xmlns:batch="http://www.mulesoft.org/schema/mule/batch" xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper" xmlns:sfdc="http://www.mulesoft.org/schema/mule/sfdc" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:spring="http://www.springframework.org/schema/beans" xmlns:core="http://www.mulesoft.org/schema/mule/core" version="EE-3.5.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd
+http://www.mulesoft.org/schema/mule/siebel http://www.mulesoft.org/schema/mule/siebel/1.0/mule-siebel.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/siebel-io http://www.mulesoft.org/schema/mule/siebel-io/1.0/mule-siebel-io.xsd
+http://www.mulesoft.org/schema/mule/batch http://www.mulesoft.org/schema/mule/batch/current/mule-batch.xsd
+http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schema/mule/ee/data-mapper/current/mule-data-mapper.xsd
+http://www.mulesoft.org/schema/mule/sfdc http://www.mulesoft.org/schema/mule/sfdc/current/mule-sfdc.xsd
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+    <sfdc:config name="Salesforce" username="jose.amenta@mulesoft.com.devel" password="Jose.1234" securityToken="hBMiN2a99BTcDbaFiUPSdAAL" url="https://test.salesforce.com/services/Soap/u/28.0" doc:name="Salesforce">
+        <sfdc:connection-pooling-profile initialisationPolicy="INITIALISE_ONE" exhaustedAction="WHEN_EXHAUSTED_GROW"/>
+    </sfdc:config>
+    <siebel:config name="Oracle_Siebel_Business_Object" user="SADMIN" password="SADMIN" server="23.21.233.175" serverName="SBA_82" objectManager="EAIObjMgr_enu" dataSenseFilterQueryBusComp="[Name] = 'Contact'" dataSenseFilterQueryBusObjects="[Name] = 'Contact'" doc:name="Oracle Siebel Business Object">
+        <siebel:connection-pooling-profile initialisationPolicy="INITIALISE_ONE" exhaustedAction="WHEN_EXHAUSTED_GROW"/>
+    </siebel:config>
+    <data-mapper:config name="listcontact.contact_to_listcontact" transformationGraphPath="list&lt;contact.contact&gt;_to_list&lt;contact&gt;.grf" doc:name="listcontact.contact_to_listcontact"/>
+    <data-mapper:config name="listcontact_to_contact_io" transformationGraphPath="list&lt;contact&gt;_to_contact_io.grf" doc:name="listcontact_to_contact_io"/>
+<batch:job name="salesforce2siebelBatch1" >
+        <batch:threading-profile poolExhaustedAction="WAIT"/>
+        <batch:input>
+            <http:inbound-endpoint exchange-pattern="one-way" host="localhost" port="8081" doc:name="HTTP"/>
+            <siebel:query-business-components config-ref="Oracle_Siebel_Business_Object" businessObjectComponentType="Contact.Contact" doc:name="Oracle Siebel Business Object">
+                <siebel:fields-to-retrieve>
+                    <siebel:fields-to-retrieve>Last Name</siebel:fields-to-retrieve>
+                    <siebel:fields-to-retrieve>Email Address</siebel:fields-to-retrieve>
+                    <siebel:fields-to-retrieve>First Name</siebel:fields-to-retrieve>
+                    <siebel:fields-to-retrieve>Primary Organization</siebel:fields-to-retrieve>
+                    <siebel:fields-to-retrieve>Personal Contact</siebel:fields-to-retrieve>
+                    <siebel:fields-to-retrieve>Employee Number</siebel:fields-to-retrieve>
+                    <siebel:fields-to-retrieve>Account Integration Id</siebel:fields-to-retrieve>
+                </siebel:fields-to-retrieve>
+            </siebel:query-business-components>
+            <data-mapper:transform config-ref="listcontact.contact_to_listcontact" doc:name="Map to SFDC"/>
+        </batch:input>
+        <batch:process-records>
+            <batch:step name="Batch_Step">
+                <batch:commit size="5" doc:name="Batch Commit">
+                    <logger message="Committing next batch" level="INFO" doc:name="Logger"/>
+                    <sfdc:create config-ref="Salesforce" type="Contact" doc:name="Salesforce">
+                        <sfdc:objects ref="#[payload]"/>
+                    </sfdc:create>
+                </batch:commit>
+            </batch:step>
+        </batch:process-records>
+        <batch:on-complete>
+            <logger message="Failed Records: #[payload.failedRecords] ; Successful Records: #[payload.successfulRecords] " level="INFO" doc:name="Logger"/>
+        </batch:on-complete>
+    </batch:job>    
+</mule>

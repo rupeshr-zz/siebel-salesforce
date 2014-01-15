@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph author="josesahad" created="Wed Jan 08 21:06:07 GMT-03:00 2014" description="List&lt;Contact&gt; To Contact IO" guiVersion="3.4.3.P" id="1389227125913" licenseCode="Unlicensed" licenseType="Unknown" modified="Wed Jan 08 21:06:07 GMT-03:00 2014" modifiedBy="josesahad" name="List_Contact__To_Contact_IO" revision="1.0" showComponentDetails="false">
+<Global>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/Contact" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _type="Input" id="3fa48697-ec45-49c0-8a98-456f21f15299">
+<Record fieldDelimiter="," name="Contact" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="124" __sourcePath="{}/Contact/AccountId" containerType="SINGLE" label="AccountId" name="AccountId" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="115" __sourcePath="{}/Contact/Accounts_x005fReceivable_x005fContact_x005f_x005fc" containerType="SINGLE" label="Accounts_Receivable_Contact__c" name="Accounts_Receivable_Contact__c" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="108" __sourcePath="{}/Contact/AssistantName" containerType="SINGLE" label="AssistantName" name="AssistantName" type="string"/>
+<Field __implementationClass="java.lang.String" __index="168" __sourcePath="{}/Contact/AssistantPhone" containerType="SINGLE" label="AssistantPhone" name="AssistantPhone" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="60" __sourcePath="{}/Contact/Birthdate" containerType="SINGLE" label="Birthdate" name="Birthdate" type="string"/>
+<Field __index="89" __sourcePath="{}/Contact/Call_x005fEmail_x005f_x005fc" containerType="SINGLE" label="Call_Email__c" name="Call_Email__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="54" __sourcePath="{}/Contact/CommunityNickname_x005f_x005fc" containerType="SINGLE" label="CommunityNickname__c" name="CommunityNickname__c" type="string"/>
+<Field __index="175" __sourcePath="{}/Contact/Contact_x005fStatus_x005f_x005fc" containerType="SINGLE" label="Contact_Status__c" name="Contact_Status__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="37" __sourcePath="{}/Contact/CreatedById" containerType="SINGLE" label="CreatedById" name="CreatedById" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="81" __sourcePath="{}/Contact/CreatedDate" containerType="SINGLE" label="CreatedDate" name="CreatedDate" type="string"/>
+<Field __index="112" __sourcePath="{}/Contact/CurrencyIsoCode" containerType="SINGLE" label="CurrencyIsoCode" name="CurrencyIsoCode" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="99" __sourcePath="{}/Contact/Date_x005fFirst_x005fContacted_x005f_x005fc" containerType="SINGLE" label="Date_First_Contacted__c" name="Date_First_Contacted__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="131" __sourcePath="{}/Contact/Date_x005fMQL_x005f_x005fc" containerType="SINGLE" label="Date_MQL__c" name="Date_MQL__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="71" __sourcePath="{}/Contact/Date_x005fMarketo_x005fActive_x005f_x005fc" containerType="SINGLE" label="Date_Marketo_Active__c" name="Date_Marketo_Active__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="47" __sourcePath="{}/Contact/Date_x005fSQL_x005f_x005fc" containerType="SINGLE" label="Date_SQL__c" name="Date_SQL__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="154" __sourcePath="{}/Contact/Department" containerType="SINGLE" label="Department" name="Department" type="string"/>
+<Field __implementationClass="java.lang.String" __index="163" __sourcePath="{}/Contact/Description" containerType="SINGLE" label="Description" name="Description" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="11" __sourcePath="{}/Contact/DoNotCall" containerType="SINGLE" label="DoNotCall" name="DoNotCall" type="boolean"/>
+<Field __index="82" __sourcePath="{}/Contact/ESB_x005fStatus_x005fDescription_x005f_x005fc" containerType="SINGLE" label="ESB_Status_Description__c" name="ESB_Status_Description__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="36" __sourcePath="{}/Contact/Email" containerType="SINGLE" label="Email" name="Email" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="42" __sourcePath="{}/Contact/EmailBouncedDate" containerType="SINGLE" label="EmailBouncedDate" name="EmailBouncedDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="125" __sourcePath="{}/Contact/EmailBouncedReason" containerType="SINGLE" label="EmailBouncedReason" name="EmailBouncedReason" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="90" __sourcePath="{}/Contact/Email_x005fSelected_x005f_x005fc" containerType="SINGLE" label="Email_Selected__c" name="Email_Selected__c" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="177" __sourcePath="{}/Contact/Employee_x005fStill_x005fWith_x005fCompany_x005f_x005fc" containerType="SINGLE" label="Employee_Still_With_Company__c" name="Employee_Still_With_Company__c" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="167" __sourcePath="{}/Contact/Fax" containerType="SINGLE" label="Fax" name="Fax" type="string"/>
+<Field __implementationClass="java.lang.String" __index="61" __sourcePath="{}/Contact/FirstName" containerType="SINGLE" label="FirstName" name="FirstName" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="155" __sourcePath="{}/Contact/Fit_x005fScore_x005f_x005fc" containerType="SINGLE" label="Fit_Score__c" name="Fit_Score__c" type="number"/>
+<Field __implementationClass="java.lang.Boolean" __index="75" __sourcePath="{}/Contact/Free_x005fEmail_x005fAddress_x005f_x005fc" containerType="SINGLE" label="Free_Email_Address__c" name="Free_Email_Address__c" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="29" __sourcePath="{}/Contact/HasOptedOutOfEmail" containerType="SINGLE" label="HasOptedOutOfEmail" name="HasOptedOutOfEmail" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="10" __sourcePath="{}/Contact/HomePhone" containerType="SINGLE" label="HomePhone" name="HomePhone" type="string"/>
+<Field __index="74" __sourcePath="{}/Contact/IF_x005fProspect_x005fis_x005fstaying_x005fon_x005fCE_x005fis_x005fselected_x005f_x005fc" containerType="SINGLE" label="IF_Prospect_is_staying_on_CE_is_selected__c" name="IF_Prospect_is_staying_on_CE_is_selected__c" type="string"/>
+<Field __index="152" __sourcePath="{}/Contact/IF_x005fToo_x005fearly_x005fis_x005fselected_x005f_x005fc" containerType="SINGLE" label="IF_Too_early_is_selected__c" name="IF_Too_early_is_selected__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="129" __sourcePath="{}/Contact/Id" containerType="SINGLE" label="Id" name="Id" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="102" __sourcePath="{}/Contact/Interest_x005fScore_x005f_x005fc" containerType="SINGLE" label="Interest_Score__c" name="Interest_Score__c" type="number"/>
+<Field __implementationClass="java.lang.Boolean" __index="39" __sourcePath="{}/Contact/IsDeleted" containerType="SINGLE" label="IsDeleted" name="IsDeleted" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="23" __sourcePath="{}/Contact/Jigsaw" containerType="SINGLE" label="Jigsaw" name="Jigsaw" type="string"/>
+<Field __implementationClass="java.lang.String" __index="78" __sourcePath="{}/Contact/JigsawContactId" containerType="SINGLE" label="JigsawContactId" name="JigsawContactId" type="string"/>
+<Field __index="1" __sourcePath="{}/Contact/Job_x005fRole_x005f_x005fc" containerType="SINGLE" label="Job_Role__c" name="Job_Role__c" type="string"/>
+<Field __index="106" __sourcePath="{}/Contact/Key_x005fdriver_x005f_x005fc" containerType="SINGLE" label="Key_driver__c" name="Key_driver__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="144" __sourcePath="{}/Contact/LastActivityDate" containerType="SINGLE" label="LastActivityDate" name="LastActivityDate" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="97" __sourcePath="{}/Contact/LastCURequestDate" containerType="SINGLE" label="LastCURequestDate" name="LastCURequestDate" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="28" __sourcePath="{}/Contact/LastCUUpdateDate" containerType="SINGLE" label="LastCUUpdateDate" name="LastCUUpdateDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="165" __sourcePath="{}/Contact/LastModifiedById" containerType="SINGLE" label="LastModifiedById" name="LastModifiedById" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="6" __sourcePath="{}/Contact/LastModifiedDate" containerType="SINGLE" label="LastModifiedDate" name="LastModifiedDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="8" __sourcePath="{}/Contact/LastName" containerType="SINGLE" label="LastName" name="LastName" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="68" __sourcePath="{}/Contact/LastReferencedDate" containerType="SINGLE" label="LastReferencedDate" name="LastReferencedDate" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="121" __sourcePath="{}/Contact/LastViewedDate" containerType="SINGLE" label="LastViewedDate" name="LastViewedDate" type="string"/>
+<Field __index="7" __sourcePath="{}/Contact/LeadSource" containerType="SINGLE" label="LeadSource" name="LeadSource" type="string"/>
+<Field __implementationClass="java.lang.String" __index="72" __sourcePath="{}/Contact/Lead_x005fSource_x005fAsset_x005f_x005fc" containerType="SINGLE" label="Lead_Source_Asset__c" name="Lead_Source_Asset__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="80" __sourcePath="{}/Contact/Lead_x005fSource_x005fDetail_x005f_x005fc" containerType="SINGLE" label="Lead_Source_Detail__c" name="Lead_Source_Detail__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="130" __sourcePath="{}/Contact/License_x005fContact_x005f_x005fc" containerType="SINGLE" label="License_Contact__c" name="License_Contact__c" type="boolean"/>
+<Field __implementationClass="java.lang.Double" __index="63" __sourcePath="{}/Contact/MTCLeadScore_x005f_x005fc" containerType="SINGLE" label="MTCLeadScore__c" name="MTCLeadScore__c" type="number"/>
+<Field __implementationClass="java.lang.String" __index="148" __sourcePath="{}/Contact/MailingCity" containerType="SINGLE" label="MailingCity" name="MailingCity" type="string"/>
+<Field __implementationClass="java.lang.String" __index="57" __sourcePath="{}/Contact/MailingCountry" containerType="SINGLE" label="MailingCountry" name="MailingCountry" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="34" __sourcePath="{}/Contact/MailingLatitude" containerType="SINGLE" label="MailingLatitude" name="MailingLatitude" type="number"/>
+<Field __implementationClass="java.lang.Double" __index="21" __sourcePath="{}/Contact/MailingLongitude" containerType="SINGLE" label="MailingLongitude" name="MailingLongitude" type="number"/>
+<Field __implementationClass="java.lang.String" __index="58" __sourcePath="{}/Contact/MailingPostalCode" containerType="SINGLE" label="MailingPostalCode" name="MailingPostalCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="53" __sourcePath="{}/Contact/MailingState" containerType="SINGLE" label="MailingState" name="MailingState" type="string"/>
+<Field __implementationClass="java.lang.String" __index="100" __sourcePath="{}/Contact/MailingStreet" containerType="SINGLE" label="MailingStreet" name="MailingStreet" type="string"/>
+<Field __implementationClass="java.lang.String" __index="150" __sourcePath="{}/Contact/ManticoreID_x005f_x005fc" containerType="SINGLE" label="ManticoreID__c" name="ManticoreID__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="25" __sourcePath="{}/Contact/Manticore_x005fFull_x005fPromotion_x005fCode_x005f_x005fc" containerType="SINGLE" label="Manticore_Full_Promotion_Code__c" name="Manticore_Full_Promotion_Code__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="14" __sourcePath="{}/Contact/Manticore_x005fHasBounced_x005f_x005fc" containerType="SINGLE" label="Manticore_HasBounced__c" name="Manticore_HasBounced__c" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="118" __sourcePath="{}/Contact/Manticore_x005fLast_x005fSearch_x005fEngine_x005f_x005fc" containerType="SINGLE" label="Manticore_Last_Search_Engine__c" name="Manticore_Last_Search_Engine__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="33" __sourcePath="{}/Contact/Manticore_x005fLast_x005fSearch_x005fPhrase_x005f_x005fc" containerType="SINGLE" label="Manticore_Last_Search_Phrase__c" name="Manticore_Last_Search_Phrase__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="107" __sourcePath="{}/Contact/Manticore_x005fLast_x005fWeb_x005fVisit_x005f_x005fc" containerType="SINGLE" label="Manticore_Last_Web_Visit__c" name="Manticore_Last_Web_Visit__c" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="5" __sourcePath="{}/Contact/Manticore_x005fTotal_x005fWeb_x005fVisits_x005f_x005fc" containerType="SINGLE" label="Manticore_Total_Web_Visits__c" name="Manticore_Total_Web_Visits__c" type="number"/>
+<Field __implementationClass="java.lang.String" __index="77" __sourcePath="{}/Contact/MasterRecordId" containerType="SINGLE" label="MasterRecordId" name="MasterRecordId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="19" __sourcePath="{}/Contact/MobilePhone" containerType="SINGLE" label="MobilePhone" name="MobilePhone" type="string"/>
+<Field __implementationClass="java.lang.String" __index="40" __sourcePath="{}/Contact/Most_x005fRecent_x005fCampaign_x005f_x005fc" containerType="SINGLE" label="Most_Recent_Campaign__c" name="Most_Recent_Campaign__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="138" __sourcePath="{}/Contact/MuleCon_x005f2008_x005fAttendee_x005f_x005fc" containerType="SINGLE" label="MuleCon_2008_Attendee__c" name="MuleCon_2008_Attendee__c" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="170" __sourcePath="{}/Contact/Name" containerType="SINGLE" label="Name" name="Name" type="string"/>
+<Field __index="114" __sourcePath="{}/Contact/Nurture_x005fStatus_x005f_x005fc" containerType="SINGLE" label="Nurture_Status__c" name="Nurture_Status__c" type="string"/>
+<Field __index="178" __sourcePath="{}/Contact/Opinionofourcompany_x005f_x005fc" containerType="SINGLE" label="Opinionofourcompany__c" name="Opinionofourcompany__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="119" __sourcePath="{}/Contact/Organization_x005fuses_x005f_x005fc" containerType="SINGLE" label="Organization_uses__c" name="Organization_uses__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="120" __sourcePath="{}/Contact/Original_x005fEmail_x005f_x005fc" containerType="SINGLE" label="Original_Email__c" name="Original_Email__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="134" __sourcePath="{}/Contact/Original_x005fPhone_x005f_x005fc" containerType="SINGLE" label="Original_Phone__c" name="Original_Phone__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="117" __sourcePath="{}/Contact/OtherCity" containerType="SINGLE" label="OtherCity" name="OtherCity" type="string"/>
+<Field __implementationClass="java.lang.String" __index="174" __sourcePath="{}/Contact/OtherCountry" containerType="SINGLE" label="OtherCountry" name="OtherCountry" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="66" __sourcePath="{}/Contact/OtherLatitude" containerType="SINGLE" label="OtherLatitude" name="OtherLatitude" type="number"/>
+<Field __implementationClass="java.lang.Double" __index="13" __sourcePath="{}/Contact/OtherLongitude" containerType="SINGLE" label="OtherLongitude" name="OtherLongitude" type="number"/>
+<Field __implementationClass="java.lang.String" __index="52" __sourcePath="{}/Contact/OtherPhone" containerType="SINGLE" label="OtherPhone" name="OtherPhone" type="string"/>
+<Field __implementationClass="java.lang.String" __index="9" __sourcePath="{}/Contact/OtherPostalCode" containerType="SINGLE" label="OtherPostalCode" name="OtherPostalCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="38" __sourcePath="{}/Contact/OtherState" containerType="SINGLE" label="OtherState" name="OtherState" type="string"/>
+<Field __implementationClass="java.lang.String" __index="151" __sourcePath="{}/Contact/OtherStreet" containerType="SINGLE" label="OtherStreet" name="OtherStreet" type="string"/>
+<Field __implementationClass="java.lang.String" __index="18" __sourcePath="{}/Contact/Other_x005f_x005fc" containerType="SINGLE" label="Other__c" name="Other__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="45" __sourcePath="{}/Contact/OwnerId" containerType="SINGLE" label="OwnerId" name="OwnerId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="135" __sourcePath="{}/Contact/Phone" containerType="SINGLE" label="Phone" name="Phone" type="string"/>
+<Field __index="12" __sourcePath="{}/Contact/Potential_x005fDeployment_x005fsize_x005f_x005fc" containerType="SINGLE" label="Potential_Deployment_size__c" name="Potential_Deployment_size__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="86" __sourcePath="{}/Contact/Preferred_x005fLanguage_x005f_x005fc" containerType="SINGLE" label="Preferred_Language__c" name="Preferred_Language__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="94" __sourcePath="{}/Contact/PreviousCompany_x005f_x005fc" containerType="SINGLE" label="PreviousCompany__c" name="PreviousCompany__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="110" __sourcePath="{}/Contact/Primary_x005fContact_x005f_x005fc" containerType="SINGLE" label="Primary_Contact__c" name="Primary_Contact__c" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="166" __sourcePath="{}/Contact/Primary_x005fProject_x005fContact_x005f_x005fc" containerType="SINGLE" label="Primary_Project_Contact__c" name="Primary_Project_Contact__c" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="92" __sourcePath="{}/Contact/Referred_x005f_x005fc" containerType="SINGLE" label="Referred__c" name="Referred__c" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="113" __sourcePath="{}/Contact/Referred_x005fby_x005fPerson_x005f_x005fc" containerType="SINGLE" label="Referred_by_Person__c" name="Referred_by_Person__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="70" __sourcePath="{}/Contact/ReportsToId" containerType="SINGLE" label="ReportsToId" name="ReportsToId" type="string"/>
+<Field __index="24" __sourcePath="{}/Contact/Salutation" containerType="SINGLE" label="Salutation" name="Salutation" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="176" __sourcePath="{}/Contact/Score_x005fData_x005fQuality_x005f_x005fc" containerType="SINGLE" label="Score_Data_Quality__c" name="Score_Data_Quality__c" type="number"/>
+<Field __implementationClass="java.lang.Double" __index="149" __sourcePath="{}/Contact/Score_x005fDemographic_x005f_x005fc" containerType="SINGLE" label="Score_Demographic__c" name="Score_Demographic__c" type="number"/>
+<Field __implementationClass="java.lang.String" __index="27" __sourcePath="{}/Contact/Score_x005fMQL_x005fThreshold_x005fClusters_x005f_x005fc" containerType="SINGLE" label="Score_MQL_Threshold_Clusters__c" name="Score_MQL_Threshold_Clusters__c" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="31" __sourcePath="{}/Contact/Score_x005fMQL_x005fThreshold_x005f_x005fc" containerType="SINGLE" label="Score_MQL_Threshold__c" name="Score_MQL_Threshold__c" type="number"/>
+<Field __implementationClass="java.lang.Double" __index="132" __sourcePath="{}/Contact/Score_x005fRecent_x005fVisits_x005f_x005fc" containerType="SINGLE" label="Score_Recent_Visits__c" name="Score_Recent_Visits__c" type="number"/>
+<Field __implementationClass="java.lang.String" __index="96" __sourcePath="{}/Contact/Secondary_x005fEmail_x005f_x005fc" containerType="SINGLE" label="Secondary_Email__c" name="Secondary_Email__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="153" __sourcePath="{}/Contact/Secondary_x005fPhone_x005f_x005fc" containerType="SINGLE" label="Secondary_Phone__c" name="Secondary_Phone__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="2" __sourcePath="{}/Contact/Support_x005fContact_x005fdel_x005f_x005fc" containerType="SINGLE" label="Support_Contact_del__c" name="Support_Contact_del__c" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="93" __sourcePath="{}/Contact/Suspend_x005fMarketing_x005f_x005fc" containerType="SINGLE" label="Suspend_Marketing__c" name="Suspend_Marketing__c" type="boolean"/>
+<Field __index="64" __sourcePath="{}/Contact/Swimlane_x005f_x005fc" containerType="SINGLE" label="Swimlane__c" name="Swimlane__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="55" __sourcePath="{}/Contact/SystemModstamp" containerType="SINGLE" label="SystemModstamp" name="SystemModstamp" type="string"/>
+<Field __index="160" __sourcePath="{}/Contact/Tcat_x005fStatus_x005fDescription_x005f_x005fc" containerType="SINGLE" label="Tcat_Status_Description__c" name="Tcat_Status_Description__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="126" __sourcePath="{}/Contact/Tcat_x005fSubscription_x005f_x005fc" containerType="SINGLE" label="Tcat_Subscription__c" name="Tcat_Subscription__c" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="32" __sourcePath="{}/Contact/TechTarget_x005fDashboard_x005f_x005fc" containerType="SINGLE" label="TechTarget_Dashboard__c" name="TechTarget_Dashboard__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="76" __sourcePath="{}/Contact/Title" containerType="SINGLE" label="Title" name="Title" type="string"/>
+<Field __implementationClass="java.lang.String" __index="15" __sourcePath="{}/Contact/Useful_x005fTcat_x005fserver_x005ffeatures_x005f_x005fc" containerType="SINGLE" label="Useful_Tcat_server_features__c" name="Useful_Tcat_server_features__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="142" __sourcePath="{}/Contact/fliptop_x005f_x005fEmail_x005fLast_x005fUpdated_x005f_x005fc" containerType="SINGLE" label="fliptop__Email_Last_Updated__c" name="fliptop__Email_Last_Updated__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="128" __sourcePath="{}/Contact/fliptop_x005f_x005fEmail_x005fUpdated_x005fSince_x005fLast_x005fFliptop_x005fRun_x005f_x005fc" containerType="SINGLE" label="fliptop__Email_Updated_Since_Last_Fliptop_Run__c" name="fliptop__Email_Updated_Since_Last_Fliptop_Run__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="69" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fAge_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Age__c" name="fliptop__Fliptop_Age__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="98" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fCompany_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Company__c" name="fliptop__Fliptop_Company__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="41" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fGender_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Gender__c" name="fliptop__Fliptop_Gender__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="3" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fImage_x005fURL_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Image_URL__c" name="fliptop__Fliptop_Image_URL__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="83" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fLast_x005fChecked_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Last_Checked__c" name="fliptop__Fliptop_Last_Checked__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="169" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fLast_x005fStatus_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Last_Status__c" name="fliptop__Fliptop_Last_Status__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="141" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fLocation_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Location__c" name="fliptop__Fliptop_Location__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="127" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fName_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Name__c" name="fliptop__Fliptop_Name__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="84" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fPhoto_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Photo__c" name="fliptop__Fliptop_Photo__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="103" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fProcessed_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Processed__c" name="fliptop__Fliptop_Processed__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="49" __sourcePath="{}/Contact/fliptop_x005f_x005fFliptop_x005fTitle_x005f_x005fc" containerType="SINGLE" label="fliptop__Fliptop_Title__c" name="fliptop__Fliptop_Title__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="133" __sourcePath="{}/Contact/fliptop_x005f_x005fHas_x005fLinkedIn_x005f_x005fc" containerType="SINGLE" label="fliptop__Has_LinkedIn__c" name="fliptop__Has_LinkedIn__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="109" __sourcePath="{}/Contact/fliptop_x005f_x005fHas_x005fTwitter_x005f_x005fc" containerType="SINGLE" label="fliptop__Has_Twitter__c" name="fliptop__Has_Twitter__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="164" __sourcePath="{}/Contact/fliptop_x005f_x005fHas_xacebook_x005f_x005fc" containerType="SINGLE" label="fliptop__Has곫ook__c" name="fliptop__Hasgolbook__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="156" __sourcePath="{}/Contact/fliptop_x005f_x005fLinkedIn_x005fURL_x005f_x005fc" containerType="SINGLE" label="fliptop__LinkedIn_URL__c" name="fliptop__LinkedIn_URL__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="136" __sourcePath="{}/Contact/fliptop_x005f_x005fLinkedIn_x005f_x005fc" containerType="SINGLE" label="fliptop__LinkedIn__c" name="fliptop__LinkedIn__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="143" __sourcePath="{}/Contact/fliptop_x005f_x005fTwitter_x005fURL_x005f_x005fc" containerType="SINGLE" label="fliptop__Twitter_URL__c" name="fliptop__Twitter_URL__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="22" __sourcePath="{}/Contact/fliptop_x005f_x005fTwitter_x005f_x005fc" containerType="SINGLE" label="fliptop__Twitter__c" name="fliptop__Twitter__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="173" __sourcePath="{}/Contact/fliptop_xfacebook_x005fURL_x005f_x005fc" containerType="SINGLE" label="fliptop龜book_URL__c" name="fliptop_guibook_URL__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="145" __sourcePath="{}/Contact/fliptop_xfacebook_x005f_x005fc" containerType="SINGLE" label="fliptop龜book__c" name="fliptop_guibook__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="26" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fAutomatic_x005fUpdates_x005fDisabled_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Automatic_Updates_Disabled__c" name="jigsaw_clean__Automatic_Updates_Disabled__c" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="116" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fAutomatic_x005fUpdates_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Automatic_Updates__c" name="jigsaw_clean__Automatic_Updates__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="62" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fCRM_x005fLast_x005fModified_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__CRM_Last_Modified__c" name="jigsaw_clean__CRM_Last_Modified__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="140" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fDuplicate_x005fId_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Duplicate_Id__c" name="jigsaw_clean__Duplicate_Id__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="147" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fDuplicate_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Duplicate__c" name="jigsaw_clean__Duplicate__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="30" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fFresher_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Fresher__c" name="jigsaw_clean__Fresher__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="137" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fGraveyard_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Graveyard__c" name="jigsaw_clean__Graveyard__c" type="boolean"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="73" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fJigsaw_x005fCreated_x005fDate_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Jigsaw_Created_Date__c" name="jigsaw_clean__Jigsaw_Created_Date__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="87" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fJigsaw_x005fId_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Jigsaw_Id__c" name="jigsaw_clean__Jigsaw_Id__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="162" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fJigsaw_x005fLast_x005fModified_x005fDate_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Jigsaw_Last_Modified_Date__c" name="jigsaw_clean__Jigsaw_Last_Modified_Date__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="159" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fJigsaw_x005fLast_x005fSync_x005fLocked_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Jigsaw_Last_Sync_Locked__c" name="jigsaw_clean__Jigsaw_Last_Sync_Locked__c" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="59" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fJigsaw_x005fManaged_x005fBackend_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Jigsaw_Managed_Backend__c" name="jigsaw_clean__Jigsaw_Managed_Backend__c" type="number"/>
+<Field __implementationClass="java.lang.String" __index="35" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fJigsaw_x005fManaged_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Jigsaw_Managed__c" name="jigsaw_clean__Jigsaw_Managed__c" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="101" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fJigsaw_x005fSourced_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Jigsaw_Sourced__c" name="jigsaw_clean__Jigsaw_Sourced__c" type="number"/>
+<Field __index="161" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fJigsaw_x005fSync_x005fActivity_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Jigsaw_Sync_Activity__c" name="jigsaw_clean__Jigsaw_Sync_Activity__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="50" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fLast_x005fSync_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Last_Sync__c" name="jigsaw_clean__Last_Sync__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="158" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fSilent_x005fUpdate_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Silent_Update__c" name="jigsaw_clean__Silent_Update__c" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="4" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fSync_x005fStatus_x005fIndicator_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Sync_Status_Indicator__c" name="jigsaw_clean__Sync_Status_Indicator__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="104" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fSync_x005fStatus_x005fSummary_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Sync_Status_Summary__c" name="jigsaw_clean__Sync_Status_Summary__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="123" __sourcePath="{}/Contact/jigsaw_x005fclean_x005f_x005fSync_x005fStatus_x005f_x005fc" containerType="SINGLE" label="jigsaw_clean__Sync_Status__c" name="jigsaw_clean__Sync_Status__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="139" __sourcePath="{}/Contact/mkto2_x005f_x005fInferred_x005fCity_x005f_x005fc" containerType="SINGLE" label="mkto2__Inferred_City__c" name="mkto2__Inferred_City__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="91" __sourcePath="{}/Contact/mkto2_x005f_x005fInferred_x005fCompany_x005f_x005fc" containerType="SINGLE" label="mkto2__Inferred_Company__c" name="mkto2__Inferred_Company__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="95" __sourcePath="{}/Contact/mkto2_x005f_x005fInferred_x005fCountry_x005f_x005fc" containerType="SINGLE" label="mkto2__Inferred_Country__c" name="mkto2__Inferred_Country__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="172" __sourcePath="{}/Contact/mkto2_x005f_x005fInferred_x005fMetropolitan_x005fArea_x005f_x005fc" containerType="SINGLE" label="mkto2__Inferred_Metropolitan_Area__c" name="mkto2__Inferred_Metropolitan_Area__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="44" __sourcePath="{}/Contact/mkto2_x005f_x005fInferred_x005fPhone_x005fArea_x005fCode_x005f_x005fc" containerType="SINGLE" label="mkto2__Inferred_Phone_Area_Code__c" name="mkto2__Inferred_Phone_Area_Code__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="0" __sourcePath="{}/Contact/mkto2_x005f_x005fInferred_x005fPostal_x005fCode_x005f_x005fc" containerType="SINGLE" label="mkto2__Inferred_Postal_Code__c" name="mkto2__Inferred_Postal_Code__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="88" __sourcePath="{}/Contact/mkto2_x005f_x005fInferred_x005fState_x005fRegion_x005f_x005fc" containerType="SINGLE" label="mkto2__Inferred_State_Region__c" name="mkto2__Inferred_State_Region__c" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="146" __sourcePath="{}/Contact/mkto2_x005f_x005fLead_x005fScore_x005f_x005fc" containerType="SINGLE" label="mkto2__Lead_Score__c" name="mkto2__Lead_Score__c" type="number"/>
+<Field __implementationClass="java.lang.String" __index="67" __sourcePath="{}/Contact/mkto2_x005f_x005fOriginal_x005fReferrer_x005f_x005fc" containerType="SINGLE" label="mkto2__Original_Referrer__c" name="mkto2__Original_Referrer__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="56" __sourcePath="{}/Contact/mkto2_x005f_x005fOriginal_x005fSearch_x005fEngine_x005f_x005fc" containerType="SINGLE" label="mkto2__Original_Search_Engine__c" name="mkto2__Original_Search_Engine__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="65" __sourcePath="{}/Contact/mkto2_x005f_x005fOriginal_x005fSearch_x005fPhrase_x005f_x005fc" containerType="SINGLE" label="mkto2__Original_Search_Phrase__c" name="mkto2__Original_Search_Phrase__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="16" __sourcePath="{}/Contact/mkto2_x005f_x005fOriginal_x005fSource_x005fInfo_x005f_x005fc" containerType="SINGLE" label="mkto2__Original_Source_Info__c" name="mkto2__Original_Source_Info__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="20" __sourcePath="{}/Contact/mkto2_x005f_x005fOriginal_x005fSource_x005fType_x005f_x005fc" containerType="SINGLE" label="mkto2__Original_Source_Type__c" name="mkto2__Original_Source_Type__c" type="string"/>
+<Field __dmType="Calendar" __implementationClass="java.util.Calendar" __index="46" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005fDate_x005f_x005fc" containerType="SINGLE" label="mkto_si__Last_Interesting_Moment_Date__c" name="mkto_si__Last_Interesting_Moment_Date__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="79" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005fDesc_x005f_x005fc" containerType="SINGLE" label="mkto_si__Last_Interesting_Moment_Desc__c" name="mkto_si__Last_Interesting_Moment_Desc__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="51" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005fSource_x005f_x005fc" containerType="SINGLE" label="mkto_si__Last_Interesting_Moment_Source__c" name="mkto_si__Last_Interesting_Moment_Source__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="111" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005fType_x005f_x005fc" containerType="SINGLE" label="mkto_si__Last_Interesting_Moment_Type__c" name="mkto_si__Last_Interesting_Moment_Type__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="157" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005f_x005fc" containerType="SINGLE" label="mkto_si__Last_Interesting_Moment__c" name="mkto_si__Last_Interesting_Moment__c" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="85" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fPriority_x005f_x005fc" containerType="SINGLE" label="mkto_si__Priority__c" name="mkto_si__Priority__c" type="number"/>
+<Field __implementationClass="java.lang.Double" __index="48" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fRelative_x005fScore_x005fValue_x005f_x005fc" containerType="SINGLE" label="mkto_si__Relative_Score_Value__c" name="mkto_si__Relative_Score_Value__c" type="number"/>
+<Field __implementationClass="java.lang.String" __index="122" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fRelative_x005fScore_x005f_x005fc" containerType="SINGLE" label="mkto_si__Relative_Score__c" name="mkto_si__Relative_Score__c" type="string"/>
+<Field __implementationClass="java.lang.Double" __index="17" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fUrgency_x005fValue_x005f_x005fc" containerType="SINGLE" label="mkto_si__Urgency_Value__c" name="mkto_si__Urgency_Value__c" type="number"/>
+<Field __implementationClass="java.lang.String" __index="105" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fUrgency_x005f_x005fc" containerType="SINGLE" label="mkto_si__Urgency__c" name="mkto_si__Urgency__c" type="string"/>
+<Field __implementationClass="java.lang.String" __index="43" __sourcePath="{}/Contact/mkto_x005fsi_x005f_x005fView_x005fin_x005fMarketo_x005f_x005fc" containerType="SINGLE" label="mkto_si__View_in_Marketo__c" name="mkto_si__View_in_Marketo__c" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="171" __sourcePath="{}/Contact/tcat_x005fserver_x005fdownloaded_x005f_x005fc" containerType="SINGLE" label="tcat_server_downloaded__c" name="tcat_server_downloaded__c" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="0" __sourcePath="{}/Contact_x0020IO" _dataStructure="OBJECT" _id="__id" _type="Output" id="9a67763e-6061-43bd-aaf6-25fff7b3fd8b">
+<Record fieldDelimiter="," name="Contact_IO" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="0" __sourcePath="{}/Contact_x0020IO/SiebelMessage/IntObjectFormat" containerType="SINGLE" label="IntObjectFormat" name="IntObjectFormat" type="string"/>
+<Field __implementationClass="java.lang.String" __index="1" __sourcePath="{}/Contact_x0020IO/SiebelMessage/IntObjectName" containerType="SINGLE" label="IntObjectName" name="IntObjectName" type="string"/>
+<Field __implementationClass="java.lang.String" __index="205" __sourcePath="{}/Contact_x0020IO/SiebelMessage/MessageId" containerType="SINGLE" label="MessageId" name="MessageId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="206" __sourcePath="{}/Contact_x0020IO/SiebelMessage/MessageType" containerType="SINGLE" label="MessageType" name="MessageType" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="79" __referenceCounter="0" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ListOfContact_x005fBusiness_x0020Address" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="8159c844-82d9-4b4b-8d2d-cf91f65bf13d" _parent_id="__parent_id" _type="Output" id="13e03910-bc33-4a08-9ce1-2317df685c97">
+<Record fieldDelimiter="," name="ListOfContact_Business_Address" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="80" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ListOfContact_x005fBusiness_x0020Address/Contact_x005fBusiness_x0020Address/Address_x0020Name" containerType="SINGLE" label="Address Name" name="Address_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="84" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ListOfContact_x005fBusiness_x0020Address/Contact_x005fBusiness_x0020Address/City" containerType="SINGLE" label="City" name="City" type="string"/>
+<Field __implementationClass="java.lang.String" __index="83" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ListOfContact_x005fBusiness_x0020Address/Contact_x005fBusiness_x0020Address/Country" containerType="SINGLE" label="Country" name="Country" type="string"/>
+<Field __implementationClass="java.lang.String" __index="81" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ListOfContact_x005fBusiness_x0020Address/Contact_x005fBusiness_x0020Address/Postal_x0020Code" containerType="SINGLE" label="Postal Code" name="Postal_Code" type="string"/>
+<Field __implementationClass="java.lang.String" __index="79" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ListOfContact_x005fBusiness_x0020Address/Contact_x005fBusiness_x0020Address/State" containerType="SINGLE" label="State" name="State" type="string"/>
+<Field __implementationClass="java.lang.String" __index="85" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ListOfContact_x005fBusiness_x0020Address/Contact_x005fBusiness_x0020Address/Street_x0020Address" containerType="SINGLE" label="Street Address" name="Street_Address" type="string"/>
+<Field __implementationClass="java.lang.String" __index="82" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ListOfContact_x005fBusiness_x0020Address/Contact_x005fBusiness_x0020Address/Street_x0020Address_x00202" containerType="SINGLE" label="Street Address 2" name="Street_Address_2" type="string"/>
+</Record>
+</Metadata>
+<Metadata __index="2" __referenceCounter="1" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="9a67763e-6061-43bd-aaf6-25fff7b3fd8b" _parent_id="__parent_id" _type="Output" id="8159c844-82d9-4b4b-8d2d-cf91f65bf13d">
+<Record fieldDelimiter="," name="ListOfContact_IO" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="8" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Accomplishments" containerType="SINGLE" label="Accomplishments" name="Accomplishments" type="string"/>
+<Field __implementationClass="java.lang.String" __index="64" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Currency_x0020Code" containerType="SINGLE" label="Account Currency Code" name="Account_Currency_Code" type="string"/>
+<Field __implementationClass="java.lang.String" __index="42" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Id" containerType="SINGLE" label="Account Id" name="Account_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="53" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Integration_x0020Id" containerType="SINGLE" label="Account Integration Id" name="Account_Integration_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="134" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Mod_x0020Id" containerType="SINGLE" label="Account Mod Id" name="Account_Mod_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="125" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Partner_x0020Flag" containerType="SINGLE" label="Account Partner Flag" name="Account_Partner_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="74" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Price_x0020List_x0020Id" containerType="SINGLE" label="Account Price List Id" name="Account_Price_List_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="31" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Primary_x0020Bill_x0020To_x0020Address_x0020Id" containerType="SINGLE" label="Account Primary Bill To Address Id" name="Account_Primary_Bill_To_Address_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="153" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Primary_x0020Bill_x0020To_x0020Person_x0020Id" containerType="SINGLE" label="Account Primary Bill To Person Id" name="Account_Primary_Bill_To_Person_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="26" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Primary_x0020Ship_x0020To_x0020Address_x0020Id" containerType="SINGLE" label="Account Primary Ship To Address Id" name="Account_Primary_Ship_To_Address_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="50" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Primary_x0020Ship_x0020To_x0020Person_x0020Id" containerType="SINGLE" label="Account Primary Ship To Person Id" name="Account_Primary_Ship_To_Person_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="38" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Account_x0020Survey_x0020Type" containerType="SINGLE" label="Account Survey Type" name="Account_Survey_Type" type="string"/>
+<Field __implementationClass="java.lang.String" __index="127" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Active_x0020Status" containerType="SINGLE" label="Active Status" name="Active_Status" type="string"/>
+<Field __implementationClass="java.lang.String" __index="182" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Agenda" containerType="SINGLE" label="Agenda" name="Agenda" type="string"/>
+<Field __implementationClass="java.lang.String" __index="121" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Alias" containerType="SINGLE" label="Alias" name="Alias" type="string"/>
+<Field __implementationClass="java.lang.String" __index="163" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Alignment" containerType="SINGLE" label="Alignment" name="Alignment" type="string"/>
+<Field __implementationClass="java.lang.String" __index="138" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Approval_x0020Authority" containerType="SINGLE" label="Approval Authority" name="Approval_Authority" type="string"/>
+<Field __implementationClass="java.lang.String" __index="140" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Approval_x0020Status" containerType="SINGLE" label="Approval Status" name="Approval_Status" type="string"/>
+<Field __implementationClass="java.lang.String" __index="174" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Assignment_x0020Excluded" containerType="SINGLE" label="Assignment Excluded" name="Assignment_Excluded" type="string"/>
+<Field __implementationClass="java.lang.String" __index="136" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Assistant" containerType="SINGLE" label="Assistant" name="Assistant" type="string"/>
+<Field __implementationClass="java.lang.String" __index="19" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Assistant_x0020Phone_x0020_x0023" containerType="SINGLE" label="Assistant Phone #" name="Assistant_Phone" type="string"/>
+<Field __implementationClass="java.lang.String" __index="144" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Birth_x0020Date" containerType="SINGLE" label="Birth Date" name="Birth_Date" type="string"/>
+<Field __implementationClass="java.lang.String" __index="191" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Business_x0020Results" containerType="SINGLE" label="Business Results" name="Business_Results" type="string"/>
+<Field __implementationClass="java.lang.String" __index="177" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/CSN" containerType="SINGLE" label="CSN" name="CSN" type="string"/>
+<Field __implementationClass="java.lang.String" __index="73" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Call" containerType="SINGLE" label="Call" name="Call" type="string"/>
+<Field __implementationClass="java.lang.String" __index="199" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Cellular_x0020Phone_x0020_x0023" containerType="SINGLE" label="Cellular Phone #" name="Cellular_Phone" type="string"/>
+<Field __implementationClass="java.lang.String" __index="93" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ChallengeAnswer" containerType="SINGLE" label="ChallengeAnswer" name="ChallengeAnswer" type="string"/>
+<Field __implementationClass="java.lang.String" __index="101" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ChallengeQuestion" containerType="SINGLE" label="ChallengeQuestion" name="ChallengeQuestion" type="string"/>
+<Field __implementationClass="java.lang.String" __index="118" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Coach" containerType="SINGLE" label="Coach" name="Coach" type="string"/>
+<Field __implementationClass="java.lang.String" __index="137" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Comment" containerType="SINGLE" label="Comment" name="Comment" type="string"/>
+<Field __implementationClass="java.lang.String" __index="54" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Contact_x0020Organization_x0020Integration_x0020Id" containerType="SINGLE" label="Contact Organization Integration Id" name="Contact_Organization_Integration_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="15" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Contacted" containerType="SINGLE" label="Contacted" name="Contacted" type="string"/>
+<Field __implementationClass="java.lang.String" __index="14" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Created_x0020By_x0020Name" containerType="SINGLE" label="Created By Name" name="Created_By_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="145" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Currency_x0020Code" containerType="SINGLE" label="Currency Code" name="Currency_Code" type="string"/>
+<Field __implementationClass="java.lang.String" __index="147" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/DUNS_x0020Number" containerType="SINGLE" label="DUNS Number" name="DUNS_Number" type="string"/>
+<Field __implementationClass="java.lang.String" __index="20" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Date_x0020Entered_x0020Household" containerType="SINGLE" label="Date Entered Household" name="Date_Entered_Household" type="string"/>
+<Field __implementationClass="java.lang.String" __index="71" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Date_x0020Exited_x0020Household" containerType="SINGLE" label="Date Exited Household" name="Date_Exited_Household" type="string"/>
+<Field __implementationClass="java.lang.String" __index="187" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/DeDup_x0020Key_x0020Modification_x0020Date" containerType="SINGLE" label="DeDup Key Modification Date" name="DeDup_Key_Modification_Date" type="string"/>
+<Field __implementationClass="java.lang.String" __index="62" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/DeDup_x0020Last_x0020Match_x0020Date" containerType="SINGLE" label="DeDup Last Match Date" name="DeDup_Last_Match_Date" type="string"/>
+<Field __implementationClass="java.lang.String" __index="154" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Decision_x0020Criteria_x0020Business" containerType="SINGLE" label="Decision Criteria Business" name="Decision_Criteria_Business" type="string"/>
+<Field __implementationClass="java.lang.String" __index="203" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Decision_x0020Criteria_x0020Product" containerType="SINGLE" label="Decision Criteria Product" name="Decision_Criteria_Product" type="string"/>
+<Field __implementationClass="java.lang.String" __index="132" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Decision_x0020Orientation" containerType="SINGLE" label="Decision Orientation" name="Decision_Orientation" type="string"/>
+<Field __implementationClass="java.lang.String" __index="3" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Dedup_x0020Token" containerType="SINGLE" label="Dedup Token" name="Dedup_Token" type="string"/>
+<Field __implementationClass="java.lang.String" __index="102" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Deduplication_x0020Match_x0020Score" containerType="SINGLE" label="Deduplication Match Score" name="Deduplication_Match_Score" type="string"/>
+<Field __implementationClass="java.lang.String" __index="155" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Deduplication_x0020Object_x0020Id" containerType="SINGLE" label="Deduplication Object Id" name="Deduplication_Object_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="87" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Degree_x0020of_x0020Influence" containerType="SINGLE" label="Degree of Influence" name="Degree_of_Influence" type="string"/>
+<Field __implementationClass="java.lang.String" __index="91" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Disable_x0020DataCleansing" containerType="SINGLE" label="Disable DataCleansing" name="Disable_DataCleansing" type="string"/>
+<Field __implementationClass="java.lang.String" __index="142" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Dock_x0020Flag" containerType="SINGLE" label="Dock Flag" name="Dock_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="67" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ESP_x0020Decision_x0020Orientation" containerType="SINGLE" label="ESP Decision Orientation" name="ESP_Decision_Orientation" type="string"/>
+<Field __implementationClass="java.lang.String" __index="120" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ESP_x0020Org_x0020Status" containerType="SINGLE" label="ESP Org Status" name="ESP_Org_Status" type="string"/>
+<Field __implementationClass="java.lang.String" __index="192" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ESP_x0020Political_x0020Analysis" containerType="SINGLE" label="ESP Political Analysis" name="ESP_Political_Analysis" type="string"/>
+<Field __implementationClass="java.lang.String" __index="40" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ESP_x0020Role" containerType="SINGLE" label="ESP Role" name="ESP_Role" type="string"/>
+<Field __implementationClass="java.lang.String" __index="22" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/ESP_x0020Time_x0020Spent" containerType="SINGLE" label="ESP Time Spent" name="ESP_Time_Spent" type="string"/>
+<Field __implementationClass="java.lang.String" __index="156" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Economic_x0020Buyer" containerType="SINGLE" label="Economic Buyer" name="Economic_Buyer" type="string"/>
+<Field __implementationClass="java.lang.String" __index="198" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Education" containerType="SINGLE" label="Education" name="Education" type="string"/>
+<Field __implementationClass="java.lang.String" __index="189" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Educational_x0020Background" containerType="SINGLE" label="Educational Background" name="Educational_Background" type="string"/>
+<Field __implementationClass="java.lang.String" __index="164" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Email_x0020Address" containerType="SINGLE" label="Email Address" name="Email_Address" type="string"/>
+<Field __implementationClass="java.lang.String" __index="34" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Email_x0020SR_x0020Updates_x0020Flag" containerType="SINGLE" label="Email SR Updates Flag" name="Email_SR_Updates_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="27" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Employee_x0020Flag" containerType="SINGLE" label="Employee Flag" name="Employee_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="89" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Employee_x0020Id" containerType="SINGLE" label="Employee Id" name="Employee_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="169" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Employee_x0020Login_x0020Name" containerType="SINGLE" label="Employee Login Name" name="Employee_Login_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="126" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Employee_x0020Number" containerType="SINGLE" label="Employee Number" name="Employee_Number" type="string"/>
+<Field __implementationClass="java.lang.String" __index="69" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/End_x0020Date" containerType="SINGLE" label="End Date" name="End_Date" type="string"/>
+<Field __implementationClass="java.lang.String" __index="161" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Evidence_x0020to_x0020support_x0020rating" containerType="SINGLE" label="Evidence to support rating" name="Evidence_to_support_rating" type="string"/>
+<Field __implementationClass="java.lang.String" __index="97" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Fax_x0020Phone_x0020_x0023" containerType="SINGLE" label="Fax Phone #" name="Fax_Phone" type="string"/>
+<Field __implementationClass="java.lang.String" __index="28" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/First_x0020Name" containerType="SINGLE" label="First Name" name="First_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="152" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Hired_x0020By" containerType="SINGLE" label="Hired By" name="Hired_By" type="string"/>
+<Field __implementationClass="java.lang.String" __index="23" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Hobby" containerType="SINGLE" label="Hobby" name="Hobby" type="string"/>
+<Field __implementationClass="java.lang.String" __index="46" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Home_x0020Phone_x0020_x0023" containerType="SINGLE" label="Home Phone #" name="Home_Phone" type="string"/>
+<Field __implementationClass="java.lang.String" __index="96" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Income" containerType="SINGLE" label="Income" name="Income" type="string"/>
+<Field __implementationClass="java.lang.String" __index="12" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Income_x0020Currency_x0020Code" containerType="SINGLE" label="Income Currency Code" name="Income_Currency_Code" type="string"/>
+<Field __implementationClass="java.lang.String" __index="98" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Income_x0020Exchange_x0020Date" containerType="SINGLE" label="Income Exchange Date" name="Income_Exchange_Date" type="string"/>
+<Field __implementationClass="java.lang.String" __index="88" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Industry" containerType="SINGLE" label="Industry" name="Industry" type="string"/>
+<Field __implementationClass="java.lang.String" __index="179" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Integration_x0020Id" containerType="SINGLE" label="Integration Id" name="Integration_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="111" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Invite_x0020To_x0020Seminars" containerType="SINGLE" label="Invite To Seminars" name="Invite_To_Seminars" type="string"/>
+<Field __implementationClass="java.lang.String" __index="195" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Invoice_x0020Comments" containerType="SINGLE" label="Invoice Comments" name="Invoice_Comments" type="string"/>
+<Field __implementationClass="java.lang.String" __index="103" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Job_x0020Title" containerType="SINGLE" label="Job Title" name="Job_Title" type="string"/>
+<Field __implementationClass="java.lang.String" __index="201" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Joined_x0020Account_x0020Id" containerType="SINGLE" label="Joined Account Id" name="Joined_Account_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="52" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Key_x0020last_x0020updated" containerType="SINGLE" label="Key last updated" name="Key_last_updated" type="string"/>
+<Field __implementationClass="java.lang.String" __index="117" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Last_x0020Clnse_x0020Date" containerType="SINGLE" label="Last Clnse Date" name="Last_Clnse_Date" type="string"/>
+<Field __implementationClass="java.lang.String" __index="173" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Last_x0020KeyGen_x0020Date" containerType="SINGLE" label="Last KeyGen Date" name="Last_KeyGen_Date" type="string"/>
+<Field __implementationClass="java.lang.String" __index="146" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Last_x0020Name" containerType="SINGLE" label="Last Name" name="Last_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="170" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Last_x0020Update_x0020-_x0020SDQ" containerType="SINGLE" label="Last Update - SDQ" name="Last_Update_SDQ" type="string"/>
+<Field __implementationClass="java.lang.String" __index="41" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Login_x0020Name" containerType="SINGLE" label="Login Name" name="Login_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="139" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/M_x002fF" containerType="SINGLE" label="M/F" name="M_F" type="string"/>
+<Field __implementationClass="java.lang.String" __index="135" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/M_x002fM" containerType="SINGLE" label="M/M" name="M_M" type="string"/>
+<Field __implementationClass="java.lang.String" __index="78" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Mail_x0020Stop" containerType="SINGLE" label="Mail Stop" name="Mail_Stop" type="string"/>
+<Field __implementationClass="java.lang.String" __index="39" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Manager_x0020First_x0020Name" containerType="SINGLE" label="Manager First Name" name="Manager_First_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="47" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Manager_x0020Id" containerType="SINGLE" label="Manager Id" name="Manager_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="100" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Manager_x0020Integration_x0020Id" containerType="SINGLE" label="Manager Integration Id" name="Manager_Integration_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="104" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Manager_x0020Last_x0020Name" containerType="SINGLE" label="Manager Last Name" name="Manager_Last_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="76" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Manager_x0020Middle_x0020Name" containerType="SINGLE" label="Manager Middle Name" name="Manager_Middle_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="168" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Manager_x0020Primary_x0020Organization" containerType="SINGLE" label="Manager Primary Organization" name="Manager_Primary_Organization" type="string"/>
+<Field __implementationClass="java.lang.String" __index="115" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Manager_x0020Primary_x0020Organization_x0020Id" containerType="SINGLE" label="Manager Primary Organization Id" name="Manager_Primary_Organization_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="175" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Manager_x0020UId" containerType="SINGLE" label="Manager UId" name="Manager_UId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="59" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Married" containerType="SINGLE" label="Married" name="Married" type="string"/>
+<Field __implementationClass="java.lang.String" __index="129" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Middle_x0020Name" containerType="SINGLE" label="Middle Name" name="Middle_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="18" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Mode" containerType="SINGLE" label="Mode" name="Mode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="33" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Opportunity_x0020Contact_x0020Comment" containerType="SINGLE" label="Opportunity Contact Comment" name="Opportunity_Contact_Comment" type="string"/>
+<Field __implementationClass="java.lang.String" __index="141" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Org_x0020Status" containerType="SINGLE" label="Org Status" name="Org_Status" type="string"/>
+<Field __implementationClass="java.lang.String" __index="94" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Owned_x0020By" containerType="SINGLE" label="Owned By" name="Owned_By" type="string"/>
+<Field __implementationClass="java.lang.String" __index="72" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Owned_x0020By_x0020Id" containerType="SINGLE" label="Owned By Id" name="Owned_By_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="150" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/PIM_x0020Current_x0020User_x0020Sync_x0020Flag" containerType="SINGLE" label="PIM Current User Sync Flag" name="PIM_Current_User_Sync_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="45" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Parent_x0020Oppty_x0020Id" containerType="SINGLE" label="Parent Oppty Id" name="Parent_Oppty_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="113" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Partnership_x0020Contact_x0020Flag" containerType="SINGLE" label="Partnership Contact Flag" name="Partnership_Contact_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="112" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Partnership_x0020Key_x0020Contact_x0020Flag" containerType="SINGLE" label="Partnership Key Contact Flag" name="Partnership_Key_Contact_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="148" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Party_x0020Name" containerType="SINGLE" label="Party Name" name="Party_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="204" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Party_x0020Type_x0020Code" containerType="SINGLE" label="Party Type Code" name="Party_Type_Code" type="string"/>
+<Field __implementationClass="java.lang.String" __index="90" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Party_x0020UId" containerType="SINGLE" label="Party UId" name="Party_UId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="114" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Person_x0020UId" containerType="SINGLE" label="Person UId" name="Person_UId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="68" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Personal_x0020Contact" containerType="SINGLE" label="Personal Contact" name="Personal_Contact" type="string"/>
+<Field __implementationClass="java.lang.String" __index="99" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Personal_x0020Win" containerType="SINGLE" label="Personal Win" name="Personal_Win" type="string"/>
+<Field __implementationClass="java.lang.String" __index="32" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Personality" containerType="SINGLE" label="Personality" name="Personality" type="string"/>
+<Field __implementationClass="java.lang.String" __index="194" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Political_x0020Analysis" containerType="SINGLE" label="Political Analysis" name="Political_Analysis" type="string"/>
+<Field __implementationClass="java.lang.String" __index="178" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Political_x0020Strategy" containerType="SINGLE" label="Political Strategy" name="Political_Strategy" type="string"/>
+<Field __implementationClass="java.lang.String" __index="131" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Preferred_x0020Communications" containerType="SINGLE" label="Preferred Communications" name="Preferred_Communications" type="string"/>
+<Field __implementationClass="java.lang.String" __index="176" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Preferred_x0020Language_x0020Code" containerType="SINGLE" label="Preferred Language Code" name="Preferred_Language_Code" type="string"/>
+<Field __implementationClass="java.lang.String" __index="5" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Previous_x0020Jobs" containerType="SINGLE" label="Previous Jobs" name="Previous_Jobs" type="string"/>
+<Field __implementationClass="java.lang.String" __index="133" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Price_x0020List" containerType="SINGLE" label="Price List" name="Price_List" type="string"/>
+<Field __implementationClass="java.lang.String" __index="162" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Price_x0020List_x0020Id" containerType="SINGLE" label="Price List Id" name="Price_List_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="151" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Price_x0020List_x0020Integration_x0020Id" containerType="SINGLE" label="Price List Integration Id" name="Price_List_Integration_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="200" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Account_x0020Name" containerType="SINGLE" label="Primary Account Name" name="Primary_Account_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="7" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Address_x0020County" containerType="SINGLE" label="Primary Address County" name="Primary_Address_County" type="string"/>
+<Field __implementationClass="java.lang.String" __index="36" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Address_x0020Id" containerType="SINGLE" label="Primary Address Id" name="Primary_Address_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="21" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Address_x0020Integration_x0020Id" containerType="SINGLE" label="Primary Address Integration Id" name="Primary_Address_Integration_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="105" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Address_x0020Mod_x0020Id" containerType="SINGLE" label="Primary Address Mod Id" name="Primary_Address_Mod_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="110" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Address_x0020Name" containerType="SINGLE" label="Primary Address Name" name="Primary_Address_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="123" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Address_x0020Street_x0020Address2" containerType="SINGLE" label="Primary Address Street Address2" name="Primary_Address_Street_Address2" type="string"/>
+<Field __implementationClass="java.lang.String" __index="122" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Address_x0020Street_x0020Address3" containerType="SINGLE" label="Primary Address Street Address3" name="Primary_Address_Street_Address3" type="string"/>
+<Field __implementationClass="java.lang.String" __index="65" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Alternate_x0020Email_x0020Id" containerType="SINGLE" label="Primary Alternate Email Id" name="Primary_Alternate_Email_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="37" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Alternate_x0020Phone_x0020Id" containerType="SINGLE" label="Primary Alternate Phone Id" name="Primary_Alternate_Phone_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="66" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Assignment_x0020Denorm_x0020Flag" containerType="SINGLE" label="Primary Assignment Denorm Flag" name="Primary_Assignment_Denorm_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="16" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Assignment_x0020Manual_x0020Flag" containerType="SINGLE" label="Primary Assignment Manual Flag" name="Primary_Assignment_Manual_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="124" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Assignment_x0020System_x0020Flag" containerType="SINGLE" label="Primary Assignment System Flag" name="Primary_Assignment_System_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="70" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Category_x0020Id" containerType="SINGLE" label="Primary Category Id" name="Primary_Category_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="149" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020City" containerType="SINGLE" label="Primary City" name="Primary_City" type="string"/>
+<Field __implementationClass="java.lang.String" __index="56" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Country" containerType="SINGLE" label="Primary Country" name="Primary_Country" type="string"/>
+<Field __implementationClass="java.lang.String" __index="13" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Group_x002fHousehold_x0020Id" containerType="SINGLE" label="Primary Group/Household Id" name="Primary_Group_Household_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="48" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Opportunity_x0020Id" containerType="SINGLE" label="Primary Opportunity Id" name="Primary_Opportunity_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="165" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Organization" containerType="SINGLE" label="Primary Organization" name="Primary_Organization" type="string"/>
+<Field __implementationClass="java.lang.String" __index="143" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Organization_x0020Id" containerType="SINGLE" label="Primary Organization Id" name="Primary_Organization_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="159" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020PIM_x0020Sync_x0020Owner_x0020Id" containerType="SINGLE" label="Primary PIM Sync Owner Id" name="Primary_PIM_Sync_Owner_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="109" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Personal_x0020Address_x0020Id" containerType="SINGLE" label="Primary Personal Address Id" name="Primary_Personal_Address_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="172" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Personal_x0020Payment_x0020Profile_x0020Id" containerType="SINGLE" label="Primary Personal Payment Profile Id" name="Primary_Personal_Payment_Profile_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="49" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Position_x0020Id" containerType="SINGLE" label="Primary Position Id" name="Primary_Position_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="184" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Postal_x0020Code" containerType="SINGLE" label="Primary Postal Code" name="Primary_Postal_Code" type="string"/>
+<Field __implementationClass="java.lang.String" __index="107" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Responsibility_x0020Id" containerType="SINGLE" label="Primary Responsibility Id" name="Primary_Responsibility_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="58" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Service_x0020Agreement_x0020Id" containerType="SINGLE" label="Primary Service Agreement Id" name="Primary_Service_Agreement_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="160" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020State" containerType="SINGLE" label="Primary State" name="Primary_State" type="string"/>
+<Field __implementationClass="java.lang.String" __index="108" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Primary_x0020Street_x0020Address" containerType="SINGLE" label="Primary Street Address" name="Primary_Street_Address" type="string"/>
+<Field __implementationClass="java.lang.String" __index="92" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Project_x0020Account_x0020Id" containerType="SINGLE" label="Project Account Id" name="Project_Account_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="55" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Project_x0020Contact_x0020Comment" containerType="SINGLE" label="Project Contact Comment" name="Project_Contact_Comment" type="string"/>
+<Field __implementationClass="java.lang.String" __index="202" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Project_x0020Role" containerType="SINGLE" label="Project Role" name="Project_Role" type="string"/>
+<Field __implementationClass="java.lang.String" __index="95" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Prospect_x0020Flag" containerType="SINGLE" label="Prospect Flag" name="Prospect_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="17" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Race" containerType="SINGLE" label="Race" name="Race" type="string"/>
+<Field __implementationClass="java.lang.String" __index="25" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Rating" containerType="SINGLE" label="Rating" name="Rating" type="string"/>
+<Field __implementationClass="java.lang.String" __index="130" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Reference_x0020Flag" containerType="SINGLE" label="Reference Flag" name="Reference_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="116" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Reference_x0020For_x0020Code" containerType="SINGLE" label="Reference For Code" name="Reference_For_Code" type="string"/>
+<Field __implementationClass="java.lang.String" __index="77" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Registration_x0020Source_x0020App_x0020Name" containerType="SINGLE" label="Registration Source App Name" name="Registration_Source_App_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="44" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Relation_x0020to_x0020Household" containerType="SINGLE" label="Relation to Household" name="Relation_to_Household" type="string"/>
+<Field __implementationClass="java.lang.String" __index="167" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Relationship_x0020Strategy" containerType="SINGLE" label="Relationship Strategy" name="Relationship_Strategy" type="string"/>
+<Field __implementationClass="java.lang.String" __index="196" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Responsibilities" containerType="SINGLE" label="Responsibilities" name="Responsibilities" type="string"/>
+<Field __implementationClass="java.lang.String" __index="51" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Role" containerType="SINGLE" label="Role" name="Role" type="string"/>
+<Field __implementationClass="java.lang.String" __index="29" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Row_x0020Id" containerType="SINGLE" label="Row Id" name="Row_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="11" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/S-S_x0020Instance" containerType="SINGLE" label="S-S Instance" name="S_S_Instance" type="string"/>
+<Field __implementationClass="java.lang.String" __index="183" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/S-S_x0020Instance_x0020Id" containerType="SINGLE" label="S-S Instance Id" name="S_S_Instance_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="6" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/S-S_x0020Key_x0020Id" containerType="SINGLE" label="S-S Key Id" name="S_S_Key_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="61" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/SR_x0020Read_x0020Flag" containerType="SINGLE" label="SR Read Flag" name="SR_Read_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="2" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/SR_x0020Red_x0020Flag" containerType="SINGLE" label="SR Red Flag" name="SR_Red_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="180" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Send_x0020Newsletter" containerType="SINGLE" label="Send Newsletter" name="Send_Newsletter" type="string"/>
+<Field __implementationClass="java.lang.String" __index="181" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Send_x0020Promotions" containerType="SINGLE" label="Send Promotions" name="Send_Promotions" type="string"/>
+<Field __implementationClass="java.lang.String" __index="63" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Send_x0020Quarterly_x0020Financials" containerType="SINGLE" label="Send Quarterly Financials" name="Send_Quarterly_Financials" type="string"/>
+<Field __implementationClass="java.lang.String" __index="30" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Share_x0020Home_x0020Phone_x0020Flag" containerType="SINGLE" label="Share Home Phone Flag" name="Share_Home_Phone_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="86" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Social_x0020Security_x0020Number" containerType="SINGLE" label="Social Security Number" name="Social_Security_Number" type="string"/>
+<Field __implementationClass="java.lang.String" __index="158" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Spouse" containerType="SINGLE" label="Spouse" name="Spouse" type="string"/>
+<Field __implementationClass="java.lang.String" __index="9" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Spouse_x0020Name" containerType="SINGLE" label="Spouse Name" name="Spouse_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="185" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Start_x0020Date" containerType="SINGLE" label="Start Date" name="Start_Date" type="string"/>
+<Field __implementationClass="java.lang.String" __index="119" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Status" containerType="SINGLE" label="Status" name="Status" type="string"/>
+<Field __implementationClass="java.lang.String" __index="190" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Suppress_x0020All_x0020Calls" containerType="SINGLE" label="Suppress All Calls" name="Suppress_All_Calls" type="string"/>
+<Field __implementationClass="java.lang.String" __index="35" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Suppress_x0020All_x0020Emails" containerType="SINGLE" label="Suppress All Emails" name="Suppress_All_Emails" type="string"/>
+<Field __implementationClass="java.lang.String" __index="128" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Suppress_x0020All_x0020Faxes" containerType="SINGLE" label="Suppress All Faxes" name="Suppress_All_Faxes" type="string"/>
+<Field __implementationClass="java.lang.String" __index="186" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Suppress_x0020All_x0020Mailings" containerType="SINGLE" label="Suppress All Mailings" name="Suppress_All_Mailings" type="string"/>
+<Field __implementationClass="java.lang.String" __index="43" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Survey_x0020Flag" containerType="SINGLE" label="Survey Flag" name="Survey_Flag" type="string"/>
+<Field __implementationClass="java.lang.String" __index="166" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Survey_x0020Language" containerType="SINGLE" label="Survey Language" name="Survey_Language" type="string"/>
+<Field __implementationClass="java.lang.String" __index="193" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Technical_x0020Buyer" containerType="SINGLE" label="Technical Buyer" name="Technical_Buyer" type="string"/>
+<Field __implementationClass="java.lang.String" __index="106" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Time_x0020Spent" containerType="SINGLE" label="Time Spent" name="Time_Spent" type="string"/>
+<Field __implementationClass="java.lang.String" __index="197" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Time_x0020Zone" containerType="SINGLE" label="Time Zone" name="Time_Zone" type="string"/>
+<Field __implementationClass="java.lang.String" __index="10" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Time_x0020Zone_x0020Id" containerType="SINGLE" label="Time Zone Id" name="Time_Zone_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="171" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Time_x0020Zone_x0020Name" containerType="SINGLE" label="Time Zone Name" name="Time_Zone_Name" type="string"/>
+<Field __implementationClass="java.lang.String" __index="57" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/User_x0020Buyer" containerType="SINGLE" label="User Buyer" name="User_Buyer" type="string"/>
+<Field __implementationClass="java.lang.String" __index="157" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/User_x0020Status" containerType="SINGLE" label="User Status" name="User_Status" type="string"/>
+<Field __implementationClass="java.lang.String" __index="75" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/User_x0020Type" containerType="SINGLE" label="User Type" name="User_Type" type="string"/>
+<Field __implementationClass="java.lang.String" __index="188" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Work_x0020Phone_x0020Extension" containerType="SINGLE" label="Work Phone Extension" name="Work_Phone_Extension" type="string"/>
+<Field __implementationClass="java.lang.String" __index="60" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Work_x0020Phone_x0020_x0023" containerType="SINGLE" label="Work Phone #" name="Work_Phone" type="string"/>
+<Field __implementationClass="java.lang.String" __index="24" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/X_x0020Mod_x0020Id" containerType="SINGLE" label="X Mod Id" name="X_Mod_Id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="4" __sourcePath="{}/Contact_x0020IO/SiebelMessage/ListOfContact_x0020IO/Contact/Years_x0020at_x0020Account" containerType="SINGLE" label="Years at Account" name="Years_at_Account" type="string"/>
+</Record>
+</Metadata>
+<Dictionary>
+<Entry id="DictionaryEntry0" input="true" name="inputPayload" output="false" type="object"/>
+<Entry id="DictionaryEntry1" input="false" name="outputPayload" output="true" type="object"/>
+</Dictionary>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" fileURL="dict:inputPayload" guiName="Map&lt;k,v&gt; READER" guiX="20" guiY="20" id="BEAN_READER0" type="BEAN_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context outPort="0" sequenceField="__id" xpath=".">
+  <Mapping cloverField="AccountId" trim="true" xpath="AccountId"/>
+  <Mapping cloverField="Accounts_Receivable_Contact__c" trim="true" xpath="Accounts_x005fReceivable_x005fContact_x005f_x005fc"/>
+  <Mapping cloverField="AssistantName" trim="true" xpath="AssistantName"/>
+  <Mapping cloverField="AssistantPhone" trim="true" xpath="AssistantPhone"/>
+  <Mapping cloverField="Birthdate" trim="true" xpath="Birthdate"/>
+  <Mapping cloverField="Call_Email__c" trim="true" xpath="Call_x005fEmail_x005f_x005fc"/>
+  <Mapping cloverField="CommunityNickname__c" trim="true" xpath="CommunityNickname_x005f_x005fc"/>
+  <Mapping cloverField="Contact_Status__c" trim="true" xpath="Contact_x005fStatus_x005f_x005fc"/>
+  <Mapping cloverField="CreatedById" trim="true" xpath="CreatedById"/>
+  <Mapping cloverField="CreatedDate" trim="true" xpath="CreatedDate"/>
+  <Mapping cloverField="CurrencyIsoCode" trim="true" xpath="CurrencyIsoCode"/>
+  <Mapping cloverField="Date_First_Contacted__c" trim="true" xpath="Date_x005fFirst_x005fContacted_x005f_x005fc"/>
+  <Mapping cloverField="Date_MQL__c" trim="true" xpath="Date_x005fMQL_x005f_x005fc"/>
+  <Mapping cloverField="Date_Marketo_Active__c" trim="true" xpath="Date_x005fMarketo_x005fActive_x005f_x005fc"/>
+  <Mapping cloverField="Date_SQL__c" trim="true" xpath="Date_x005fSQL_x005f_x005fc"/>
+  <Mapping cloverField="Department" trim="true" xpath="Department"/>
+  <Mapping cloverField="Description" trim="true" xpath="Description"/>
+  <Mapping cloverField="DoNotCall" trim="true" xpath="DoNotCall"/>
+  <Mapping cloverField="ESB_Status_Description__c" trim="true" xpath="ESB_x005fStatus_x005fDescription_x005f_x005fc"/>
+  <Mapping cloverField="Email" trim="true" xpath="Email"/>
+  <Mapping cloverField="EmailBouncedDate" trim="true" xpath="EmailBouncedDate"/>
+  <Mapping cloverField="EmailBouncedReason" trim="true" xpath="EmailBouncedReason"/>
+  <Mapping cloverField="Email_Selected__c" trim="true" xpath="Email_x005fSelected_x005f_x005fc"/>
+  <Mapping cloverField="Employee_Still_With_Company__c" trim="true" xpath="Employee_x005fStill_x005fWith_x005fCompany_x005f_x005fc"/>
+  <Mapping cloverField="Fax" trim="true" xpath="Fax"/>
+  <Mapping cloverField="FirstName" trim="true" xpath="FirstName"/>
+  <Mapping cloverField="Fit_Score__c" trim="true" xpath="Fit_x005fScore_x005f_x005fc"/>
+  <Mapping cloverField="Free_Email_Address__c" trim="true" xpath="Free_x005fEmail_x005fAddress_x005f_x005fc"/>
+  <Mapping cloverField="HasOptedOutOfEmail" trim="true" xpath="HasOptedOutOfEmail"/>
+  <Mapping cloverField="HomePhone" trim="true" xpath="HomePhone"/>
+  <Mapping cloverField="IF_Prospect_is_staying_on_CE_is_selected__c" trim="true" xpath="IF_x005fProspect_x005fis_x005fstaying_x005fon_x005fCE_x005fis_x005fselected_x005f_x005fc"/>
+  <Mapping cloverField="IF_Too_early_is_selected__c" trim="true" xpath="IF_x005fToo_x005fearly_x005fis_x005fselected_x005f_x005fc"/>
+  <Mapping cloverField="Id" trim="true" xpath="Id"/>
+  <Mapping cloverField="Interest_Score__c" trim="true" xpath="Interest_x005fScore_x005f_x005fc"/>
+  <Mapping cloverField="IsDeleted" trim="true" xpath="IsDeleted"/>
+  <Mapping cloverField="Jigsaw" trim="true" xpath="Jigsaw"/>
+  <Mapping cloverField="JigsawContactId" trim="true" xpath="JigsawContactId"/>
+  <Mapping cloverField="Job_Role__c" trim="true" xpath="Job_x005fRole_x005f_x005fc"/>
+  <Mapping cloverField="Key_driver__c" trim="true" xpath="Key_x005fdriver_x005f_x005fc"/>
+  <Mapping cloverField="LastActivityDate" trim="true" xpath="LastActivityDate"/>
+  <Mapping cloverField="LastCURequestDate" trim="true" xpath="LastCURequestDate"/>
+  <Mapping cloverField="LastCUUpdateDate" trim="true" xpath="LastCUUpdateDate"/>
+  <Mapping cloverField="LastModifiedById" trim="true" xpath="LastModifiedById"/>
+  <Mapping cloverField="LastModifiedDate" trim="true" xpath="LastModifiedDate"/>
+  <Mapping cloverField="LastName" trim="true" xpath="LastName"/>
+  <Mapping cloverField="LastReferencedDate" trim="true" xpath="LastReferencedDate"/>
+  <Mapping cloverField="LastViewedDate" trim="true" xpath="LastViewedDate"/>
+  <Mapping cloverField="LeadSource" trim="true" xpath="LeadSource"/>
+  <Mapping cloverField="Lead_Source_Asset__c" trim="true" xpath="Lead_x005fSource_x005fAsset_x005f_x005fc"/>
+  <Mapping cloverField="Lead_Source_Detail__c" trim="true" xpath="Lead_x005fSource_x005fDetail_x005f_x005fc"/>
+  <Mapping cloverField="License_Contact__c" trim="true" xpath="License_x005fContact_x005f_x005fc"/>
+  <Mapping cloverField="MTCLeadScore__c" trim="true" xpath="MTCLeadScore_x005f_x005fc"/>
+  <Mapping cloverField="MailingCity" trim="true" xpath="MailingCity"/>
+  <Mapping cloverField="MailingCountry" trim="true" xpath="MailingCountry"/>
+  <Mapping cloverField="MailingLatitude" trim="true" xpath="MailingLatitude"/>
+  <Mapping cloverField="MailingLongitude" trim="true" xpath="MailingLongitude"/>
+  <Mapping cloverField="MailingPostalCode" trim="true" xpath="MailingPostalCode"/>
+  <Mapping cloverField="MailingState" trim="true" xpath="MailingState"/>
+  <Mapping cloverField="MailingStreet" trim="true" xpath="MailingStreet"/>
+  <Mapping cloverField="ManticoreID__c" trim="true" xpath="ManticoreID_x005f_x005fc"/>
+  <Mapping cloverField="Manticore_Full_Promotion_Code__c" trim="true" xpath="Manticore_x005fFull_x005fPromotion_x005fCode_x005f_x005fc"/>
+  <Mapping cloverField="Manticore_HasBounced__c" trim="true" xpath="Manticore_x005fHasBounced_x005f_x005fc"/>
+  <Mapping cloverField="Manticore_Last_Search_Engine__c" trim="true" xpath="Manticore_x005fLast_x005fSearch_x005fEngine_x005f_x005fc"/>
+  <Mapping cloverField="Manticore_Last_Search_Phrase__c" trim="true" xpath="Manticore_x005fLast_x005fSearch_x005fPhrase_x005f_x005fc"/>
+  <Mapping cloverField="Manticore_Last_Web_Visit__c" trim="true" xpath="Manticore_x005fLast_x005fWeb_x005fVisit_x005f_x005fc"/>
+  <Mapping cloverField="Manticore_Total_Web_Visits__c" trim="true" xpath="Manticore_x005fTotal_x005fWeb_x005fVisits_x005f_x005fc"/>
+  <Mapping cloverField="MasterRecordId" trim="true" xpath="MasterRecordId"/>
+  <Mapping cloverField="MobilePhone" trim="true" xpath="MobilePhone"/>
+  <Mapping cloverField="Most_Recent_Campaign__c" trim="true" xpath="Most_x005fRecent_x005fCampaign_x005f_x005fc"/>
+  <Mapping cloverField="MuleCon_2008_Attendee__c" trim="true" xpath="MuleCon_x005f2008_x005fAttendee_x005f_x005fc"/>
+  <Mapping cloverField="Name" trim="true" xpath="Name"/>
+  <Mapping cloverField="Nurture_Status__c" trim="true" xpath="Nurture_x005fStatus_x005f_x005fc"/>
+  <Mapping cloverField="Opinionofourcompany__c" trim="true" xpath="Opinionofourcompany_x005f_x005fc"/>
+  <Mapping cloverField="Organization_uses__c" trim="true" xpath="Organization_x005fuses_x005f_x005fc"/>
+  <Mapping cloverField="Original_Email__c" trim="true" xpath="Original_x005fEmail_x005f_x005fc"/>
+  <Mapping cloverField="Original_Phone__c" trim="true" xpath="Original_x005fPhone_x005f_x005fc"/>
+  <Mapping cloverField="OtherCity" trim="true" xpath="OtherCity"/>
+  <Mapping cloverField="OtherCountry" trim="true" xpath="OtherCountry"/>
+  <Mapping cloverField="OtherLatitude" trim="true" xpath="OtherLatitude"/>
+  <Mapping cloverField="OtherLongitude" trim="true" xpath="OtherLongitude"/>
+  <Mapping cloverField="OtherPhone" trim="true" xpath="OtherPhone"/>
+  <Mapping cloverField="OtherPostalCode" trim="true" xpath="OtherPostalCode"/>
+  <Mapping cloverField="OtherState" trim="true" xpath="OtherState"/>
+  <Mapping cloverField="OtherStreet" trim="true" xpath="OtherStreet"/>
+  <Mapping cloverField="Other__c" trim="true" xpath="Other_x005f_x005fc"/>
+  <Mapping cloverField="OwnerId" trim="true" xpath="OwnerId"/>
+  <Mapping cloverField="Phone" trim="true" xpath="Phone"/>
+  <Mapping cloverField="Potential_Deployment_size__c" trim="true" xpath="Potential_x005fDeployment_x005fsize_x005f_x005fc"/>
+  <Mapping cloverField="Preferred_Language__c" trim="true" xpath="Preferred_x005fLanguage_x005f_x005fc"/>
+  <Mapping cloverField="PreviousCompany__c" trim="true" xpath="PreviousCompany_x005f_x005fc"/>
+  <Mapping cloverField="Primary_Contact__c" trim="true" xpath="Primary_x005fContact_x005f_x005fc"/>
+  <Mapping cloverField="Primary_Project_Contact__c" trim="true" xpath="Primary_x005fProject_x005fContact_x005f_x005fc"/>
+  <Mapping cloverField="Referred__c" trim="true" xpath="Referred_x005f_x005fc"/>
+  <Mapping cloverField="Referred_by_Person__c" trim="true" xpath="Referred_x005fby_x005fPerson_x005f_x005fc"/>
+  <Mapping cloverField="ReportsToId" trim="true" xpath="ReportsToId"/>
+  <Mapping cloverField="Salutation" trim="true" xpath="Salutation"/>
+  <Mapping cloverField="Score_Data_Quality__c" trim="true" xpath="Score_x005fData_x005fQuality_x005f_x005fc"/>
+  <Mapping cloverField="Score_Demographic__c" trim="true" xpath="Score_x005fDemographic_x005f_x005fc"/>
+  <Mapping cloverField="Score_MQL_Threshold_Clusters__c" trim="true" xpath="Score_x005fMQL_x005fThreshold_x005fClusters_x005f_x005fc"/>
+  <Mapping cloverField="Score_MQL_Threshold__c" trim="true" xpath="Score_x005fMQL_x005fThreshold_x005f_x005fc"/>
+  <Mapping cloverField="Score_Recent_Visits__c" trim="true" xpath="Score_x005fRecent_x005fVisits_x005f_x005fc"/>
+  <Mapping cloverField="Secondary_Email__c" trim="true" xpath="Secondary_x005fEmail_x005f_x005fc"/>
+  <Mapping cloverField="Secondary_Phone__c" trim="true" xpath="Secondary_x005fPhone_x005f_x005fc"/>
+  <Mapping cloverField="Support_Contact_del__c" trim="true" xpath="Support_x005fContact_x005fdel_x005f_x005fc"/>
+  <Mapping cloverField="Suspend_Marketing__c" trim="true" xpath="Suspend_x005fMarketing_x005f_x005fc"/>
+  <Mapping cloverField="Swimlane__c" trim="true" xpath="Swimlane_x005f_x005fc"/>
+  <Mapping cloverField="SystemModstamp" trim="true" xpath="SystemModstamp"/>
+  <Mapping cloverField="Tcat_Status_Description__c" trim="true" xpath="Tcat_x005fStatus_x005fDescription_x005f_x005fc"/>
+  <Mapping cloverField="Tcat_Subscription__c" trim="true" xpath="Tcat_x005fSubscription_x005f_x005fc"/>
+  <Mapping cloverField="TechTarget_Dashboard__c" trim="true" xpath="TechTarget_x005fDashboard_x005f_x005fc"/>
+  <Mapping cloverField="Title" trim="true" xpath="Title"/>
+  <Mapping cloverField="Useful_Tcat_server_features__c" trim="true" xpath="Useful_x005fTcat_x005fserver_x005ffeatures_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Email_Last_Updated__c" trim="true" xpath="fliptop_x005f_x005fEmail_x005fLast_x005fUpdated_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Email_Updated_Since_Last_Fliptop_Run__c" trim="true" xpath="fliptop_x005f_x005fEmail_x005fUpdated_x005fSince_x005fLast_x005fFliptop_x005fRun_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Age__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fAge_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Company__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fCompany_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Gender__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fGender_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Image_URL__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fImage_x005fURL_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Last_Checked__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fLast_x005fChecked_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Last_Status__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fLast_x005fStatus_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Location__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fLocation_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Name__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fName_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Photo__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fPhoto_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Processed__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fProcessed_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Fliptop_Title__c" trim="true" xpath="fliptop_x005f_x005fFliptop_x005fTitle_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Has_LinkedIn__c" trim="true" xpath="fliptop_x005f_x005fHas_x005fLinkedIn_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Has_Twitter__c" trim="true" xpath="fliptop_x005f_x005fHas_x005fTwitter_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Hasgolbook__c" trim="true" xpath="fliptop_x005f_x005fHas_xacebook_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__LinkedIn_URL__c" trim="true" xpath="fliptop_x005f_x005fLinkedIn_x005fURL_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__LinkedIn__c" trim="true" xpath="fliptop_x005f_x005fLinkedIn_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Twitter_URL__c" trim="true" xpath="fliptop_x005f_x005fTwitter_x005fURL_x005f_x005fc"/>
+  <Mapping cloverField="fliptop__Twitter__c" trim="true" xpath="fliptop_x005f_x005fTwitter_x005f_x005fc"/>
+  <Mapping cloverField="fliptop_guibook_URL__c" trim="true" xpath="fliptop_xfacebook_x005fURL_x005f_x005fc"/>
+  <Mapping cloverField="fliptop_guibook__c" trim="true" xpath="fliptop_xfacebook_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Automatic_Updates_Disabled__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fAutomatic_x005fUpdates_x005fDisabled_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Automatic_Updates__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fAutomatic_x005fUpdates_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__CRM_Last_Modified__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fCRM_x005fLast_x005fModified_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Duplicate_Id__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fDuplicate_x005fId_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Duplicate__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fDuplicate_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Fresher__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fFresher_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Graveyard__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fGraveyard_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Jigsaw_Created_Date__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fJigsaw_x005fCreated_x005fDate_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Jigsaw_Id__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fJigsaw_x005fId_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Jigsaw_Last_Modified_Date__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fJigsaw_x005fLast_x005fModified_x005fDate_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Jigsaw_Last_Sync_Locked__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fJigsaw_x005fLast_x005fSync_x005fLocked_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Jigsaw_Managed_Backend__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fJigsaw_x005fManaged_x005fBackend_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Jigsaw_Managed__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fJigsaw_x005fManaged_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Jigsaw_Sourced__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fJigsaw_x005fSourced_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Jigsaw_Sync_Activity__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fJigsaw_x005fSync_x005fActivity_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Last_Sync__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fLast_x005fSync_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Silent_Update__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fSilent_x005fUpdate_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Sync_Status_Indicator__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fSync_x005fStatus_x005fIndicator_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Sync_Status_Summary__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fSync_x005fStatus_x005fSummary_x005f_x005fc"/>
+  <Mapping cloverField="jigsaw_clean__Sync_Status__c" trim="true" xpath="jigsaw_x005fclean_x005f_x005fSync_x005fStatus_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Inferred_City__c" trim="true" xpath="mkto2_x005f_x005fInferred_x005fCity_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Inferred_Company__c" trim="true" xpath="mkto2_x005f_x005fInferred_x005fCompany_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Inferred_Country__c" trim="true" xpath="mkto2_x005f_x005fInferred_x005fCountry_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Inferred_Metropolitan_Area__c" trim="true" xpath="mkto2_x005f_x005fInferred_x005fMetropolitan_x005fArea_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Inferred_Phone_Area_Code__c" trim="true" xpath="mkto2_x005f_x005fInferred_x005fPhone_x005fArea_x005fCode_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Inferred_Postal_Code__c" trim="true" xpath="mkto2_x005f_x005fInferred_x005fPostal_x005fCode_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Inferred_State_Region__c" trim="true" xpath="mkto2_x005f_x005fInferred_x005fState_x005fRegion_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Lead_Score__c" trim="true" xpath="mkto2_x005f_x005fLead_x005fScore_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Original_Referrer__c" trim="true" xpath="mkto2_x005f_x005fOriginal_x005fReferrer_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Original_Search_Engine__c" trim="true" xpath="mkto2_x005f_x005fOriginal_x005fSearch_x005fEngine_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Original_Search_Phrase__c" trim="true" xpath="mkto2_x005f_x005fOriginal_x005fSearch_x005fPhrase_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Original_Source_Info__c" trim="true" xpath="mkto2_x005f_x005fOriginal_x005fSource_x005fInfo_x005f_x005fc"/>
+  <Mapping cloverField="mkto2__Original_Source_Type__c" trim="true" xpath="mkto2_x005f_x005fOriginal_x005fSource_x005fType_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Last_Interesting_Moment_Date__c" trim="true" xpath="mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005fDate_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Last_Interesting_Moment_Desc__c" trim="true" xpath="mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005fDesc_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Last_Interesting_Moment_Source__c" trim="true" xpath="mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005fSource_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Last_Interesting_Moment_Type__c" trim="true" xpath="mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005fType_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Last_Interesting_Moment__c" trim="true" xpath="mkto_x005fsi_x005f_x005fLast_x005fInteresting_x005fMoment_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Priority__c" trim="true" xpath="mkto_x005fsi_x005f_x005fPriority_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Relative_Score_Value__c" trim="true" xpath="mkto_x005fsi_x005f_x005fRelative_x005fScore_x005fValue_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Relative_Score__c" trim="true" xpath="mkto_x005fsi_x005f_x005fRelative_x005fScore_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Urgency_Value__c" trim="true" xpath="mkto_x005fsi_x005f_x005fUrgency_x005fValue_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__Urgency__c" trim="true" xpath="mkto_x005fsi_x005f_x005fUrgency_x005f_x005fc"/>
+  <Mapping cloverField="mkto_si__View_in_Marketo__c" trim="true" xpath="mkto_x005fsi_x005f_x005fView_x005fin_x005fMarketo_x005f_x005fc"/>
+  <Mapping cloverField="tcat_server_downloaded__c" trim="true" xpath="tcat_x005fserver_x005fdownloaded_x005f_x005fc"/>
+</Context>
+]]></attr>
+<attr name="__typeName"><![CDATA[SELECT * From Contact]]></attr>
+<attr name="_data_format"><![CDATA[MAP]]></attr>
+<attr name="__operationName"><![CDATA[http://www.mulesoft.org/schema/mule/sfdc/query]]></attr>
+<attr name="__connectorName"><![CDATA[Salesforce]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'Contact' -&gt; 'ListOfContact_x0020IO'" guiX="460" guiY="120" id="FOREACH_CONTACT_LIST_OF_CONTACT_X0020IO" transformClass="com.mulesoft.datamapper.transform.MelRecordTransform" type="REFORMAT">
+<attr name="melScript"><![CDATA[//MEL
+//START -> DO NOT REMOVE
+output.__id = input.__id;
+output.__parent_id = input.__id;
+//END -> DO NOT REMOVE
+output.First_Name = input.FirstName;
+output.Last_Name = input.LastName;
+output.Email_Address = input.Email;
+output.Person_UId = input.Id;
+output.Primary_Organization = 'Default Organization';;
+output.Personal_Contact = 'N';;]]></attr>
+</Node>
+<Node cacheInMemory="true" enabled="enabled" fileURL="dict:outputPayload" guiName="Map&lt;k,v&gt; WRITER" guiX="900" guiY="20" id="MAP_WRITER0" type="MAP_WRITER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<clover:element clover:name="Contact IO" xmlns:clover="http://www.cloveretl.com/ns/xmlmapping">
+  <SiebelMessage>
+    <clover:collection clover:name="ListOfContact IO">
+      <item clover:inPort="0">
+        <Contact>
+          <clover:element clover:name="SR Red Flag" clover:dataType="java.lang.String">$0.SR_Red_Flag</clover:element>
+          <clover:element clover:name="Dedup Token" clover:dataType="java.lang.String">$0.Dedup_Token</clover:element>
+          <clover:element clover:name="Years at Account" clover:dataType="java.lang.String">$0.Years_at_Account</clover:element>
+          <clover:element clover:name="Previous Jobs" clover:dataType="java.lang.String">$0.Previous_Jobs</clover:element>
+          <clover:element clover:name="S-S Key Id" clover:dataType="java.lang.String">$0.S_S_Key_Id</clover:element>
+          <clover:element clover:name="Primary Address County" clover:dataType="java.lang.String">$0.Primary_Address_County</clover:element>
+          <Accomplishments clover:dataType="java.lang.String">$0.Accomplishments</Accomplishments>
+          <clover:element clover:name="Spouse Name" clover:dataType="java.lang.String">$0.Spouse_Name</clover:element>
+          <clover:element clover:name="Time Zone Id" clover:dataType="java.lang.String">$0.Time_Zone_Id</clover:element>
+          <clover:element clover:name="S-S Instance" clover:dataType="java.lang.String">$0.S_S_Instance</clover:element>
+          <clover:element clover:name="Income Currency Code" clover:dataType="java.lang.String">$0.Income_Currency_Code</clover:element>
+          <clover:element clover:name="Primary Group/Household Id" clover:dataType="java.lang.String">$0.Primary_Group_Household_Id</clover:element>
+          <clover:element clover:name="Created By Name" clover:dataType="java.lang.String">$0.Created_By_Name</clover:element>
+          <Contacted clover:dataType="java.lang.String">$0.Contacted</Contacted>
+          <clover:element clover:name="Primary Assignment Manual Flag" clover:dataType="java.lang.String">$0.Primary_Assignment_Manual_Flag</clover:element>
+          <Race clover:dataType="java.lang.String">$0.Race</Race>
+          <Mode clover:dataType="java.lang.String">$0.Mode</Mode>
+          <clover:element clover:name="Assistant Phone #" clover:dataType="java.lang.String">$0.Assistant_Phone</clover:element>
+          <clover:element clover:name="Date Entered Household" clover:dataType="java.lang.String">$0.Date_Entered_Household</clover:element>
+          <clover:element clover:name="Primary Address Integration Id" clover:dataType="java.lang.String">$0.Primary_Address_Integration_Id</clover:element>
+          <clover:element clover:name="ESP Time Spent" clover:dataType="java.lang.String">$0.ESP_Time_Spent</clover:element>
+          <Hobby clover:dataType="java.lang.String">$0.Hobby</Hobby>
+          <clover:element clover:name="X Mod Id" clover:dataType="java.lang.String">$0.X_Mod_Id</clover:element>
+          <Rating clover:dataType="java.lang.String">$0.Rating</Rating>
+          <clover:element clover:name="Account Primary Ship To Address Id" clover:dataType="java.lang.String">$0.Account_Primary_Ship_To_Address_Id</clover:element>
+          <clover:element clover:name="Employee Flag" clover:dataType="java.lang.String">$0.Employee_Flag</clover:element>
+          <clover:element clover:name="First Name" clover:dataType="java.lang.String">$0.First_Name</clover:element>
+          <clover:element clover:name="Row Id" clover:dataType="java.lang.String">$0.Row_Id</clover:element>
+          <clover:element clover:name="Share Home Phone Flag" clover:dataType="java.lang.String">$0.Share_Home_Phone_Flag</clover:element>
+          <clover:element clover:name="Account Primary Bill To Address Id" clover:dataType="java.lang.String">$0.Account_Primary_Bill_To_Address_Id</clover:element>
+          <Personality clover:dataType="java.lang.String">$0.Personality</Personality>
+          <clover:element clover:name="Opportunity Contact Comment" clover:dataType="java.lang.String">$0.Opportunity_Contact_Comment</clover:element>
+          <clover:element clover:name="Email SR Updates Flag" clover:dataType="java.lang.String">$0.Email_SR_Updates_Flag</clover:element>
+          <clover:element clover:name="Suppress All Emails" clover:dataType="java.lang.String">$0.Suppress_All_Emails</clover:element>
+          <clover:element clover:name="Primary Address Id" clover:dataType="java.lang.String">$0.Primary_Address_Id</clover:element>
+          <clover:element clover:name="Primary Alternate Phone Id" clover:dataType="java.lang.String">$0.Primary_Alternate_Phone_Id</clover:element>
+          <clover:element clover:name="Account Survey Type" clover:dataType="java.lang.String">$0.Account_Survey_Type</clover:element>
+          <clover:element clover:name="Manager First Name" clover:dataType="java.lang.String">$0.Manager_First_Name</clover:element>
+          <clover:element clover:name="ESP Role" clover:dataType="java.lang.String">$0.ESP_Role</clover:element>
+          <clover:element clover:name="Login Name" clover:dataType="java.lang.String">$0.Login_Name</clover:element>
+          <clover:element clover:name="Account Id" clover:dataType="java.lang.String">$0.Account_Id</clover:element>
+          <clover:element clover:name="Survey Flag" clover:dataType="java.lang.String">$0.Survey_Flag</clover:element>
+          <clover:element clover:name="Relation to Household" clover:dataType="java.lang.String">$0.Relation_to_Household</clover:element>
+          <clover:element clover:name="Parent Oppty Id" clover:dataType="java.lang.String">$0.Parent_Oppty_Id</clover:element>
+          <clover:element clover:name="Home Phone #" clover:dataType="java.lang.String">$0.Home_Phone</clover:element>
+          <clover:element clover:name="Manager Id" clover:dataType="java.lang.String">$0.Manager_Id</clover:element>
+          <clover:element clover:name="Primary Opportunity Id" clover:dataType="java.lang.String">$0.Primary_Opportunity_Id</clover:element>
+          <clover:element clover:name="Primary Position Id" clover:dataType="java.lang.String">$0.Primary_Position_Id</clover:element>
+          <clover:element clover:name="Account Primary Ship To Person Id" clover:dataType="java.lang.String">$0.Account_Primary_Ship_To_Person_Id</clover:element>
+          <Role clover:dataType="java.lang.String">$0.Role</Role>
+          <clover:element clover:name="Key last updated" clover:dataType="java.lang.String">$0.Key_last_updated</clover:element>
+          <clover:element clover:name="Account Integration Id" clover:dataType="java.lang.String">$0.Account_Integration_Id</clover:element>
+          <clover:element clover:name="Contact Organization Integration Id" clover:dataType="java.lang.String">$0.Contact_Organization_Integration_Id</clover:element>
+          <clover:element clover:name="Project Contact Comment" clover:dataType="java.lang.String">$0.Project_Contact_Comment</clover:element>
+          <clover:element clover:name="Primary Country" clover:dataType="java.lang.String">$0.Primary_Country</clover:element>
+          <clover:element clover:name="User Buyer" clover:dataType="java.lang.String">$0.User_Buyer</clover:element>
+          <clover:element clover:name="Primary Service Agreement Id" clover:dataType="java.lang.String">$0.Primary_Service_Agreement_Id</clover:element>
+          <Married clover:dataType="java.lang.String">$0.Married</Married>
+          <clover:element clover:name="Work Phone #" clover:dataType="java.lang.String">$0.Work_Phone</clover:element>
+          <clover:element clover:name="SR Read Flag" clover:dataType="java.lang.String">$0.SR_Read_Flag</clover:element>
+          <clover:element clover:name="DeDup Last Match Date" clover:dataType="java.lang.String">$0.DeDup_Last_Match_Date</clover:element>
+          <clover:element clover:name="Send Quarterly Financials" clover:dataType="java.lang.String">$0.Send_Quarterly_Financials</clover:element>
+          <clover:element clover:name="Account Currency Code" clover:dataType="java.lang.String">$0.Account_Currency_Code</clover:element>
+          <clover:element clover:name="Primary Alternate Email Id" clover:dataType="java.lang.String">$0.Primary_Alternate_Email_Id</clover:element>
+          <clover:element clover:name="Primary Assignment Denorm Flag" clover:dataType="java.lang.String">$0.Primary_Assignment_Denorm_Flag</clover:element>
+          <clover:element clover:name="ESP Decision Orientation" clover:dataType="java.lang.String">$0.ESP_Decision_Orientation</clover:element>
+          <clover:element clover:name="Personal Contact" clover:dataType="java.lang.String">$0.Personal_Contact</clover:element>
+          <clover:element clover:name="End Date" clover:dataType="java.lang.String">$0.End_Date</clover:element>
+          <clover:element clover:name="Primary Category Id" clover:dataType="java.lang.String">$0.Primary_Category_Id</clover:element>
+          <clover:element clover:name="Date Exited Household" clover:dataType="java.lang.String">$0.Date_Exited_Household</clover:element>
+          <clover:element clover:name="Owned By Id" clover:dataType="java.lang.String">$0.Owned_By_Id</clover:element>
+          <Call clover:dataType="java.lang.String">$0.Call</Call>
+          <clover:element clover:name="Account Price List Id" clover:dataType="java.lang.String">$0.Account_Price_List_Id</clover:element>
+          <clover:element clover:name="User Type" clover:dataType="java.lang.String">$0.User_Type</clover:element>
+          <clover:element clover:name="Manager Middle Name" clover:dataType="java.lang.String">$0.Manager_Middle_Name</clover:element>
+          <clover:element clover:name="Registration Source App Name" clover:dataType="java.lang.String">$0.Registration_Source_App_Name</clover:element>
+          <clover:element clover:name="Mail Stop" clover:dataType="java.lang.String">$0.Mail_Stop</clover:element>
+          <clover:element clover:name="Social Security Number" clover:dataType="java.lang.String">$0.Social_Security_Number</clover:element>
+          <clover:element clover:name="Degree of Influence" clover:dataType="java.lang.String">$0.Degree_of_Influence</clover:element>
+          <Industry clover:dataType="java.lang.String">$0.Industry</Industry>
+          <clover:element clover:name="Employee Id" clover:dataType="java.lang.String">$0.Employee_Id</clover:element>
+          <clover:element clover:name="Party UId" clover:dataType="java.lang.String">$0.Party_UId</clover:element>
+          <clover:element clover:name="Disable DataCleansing" clover:dataType="java.lang.String">$0.Disable_DataCleansing</clover:element>
+          <clover:element clover:name="Project Account Id" clover:dataType="java.lang.String">$0.Project_Account_Id</clover:element>
+          <ChallengeAnswer clover:dataType="java.lang.String">$0.ChallengeAnswer</ChallengeAnswer>
+          <clover:element clover:name="Owned By" clover:dataType="java.lang.String">$0.Owned_By</clover:element>
+          <clover:element clover:name="Prospect Flag" clover:dataType="java.lang.String">$0.Prospect_Flag</clover:element>
+          <Income clover:dataType="java.lang.String">$0.Income</Income>
+          <clover:element clover:name="Fax Phone #" clover:dataType="java.lang.String">$0.Fax_Phone</clover:element>
+          <clover:element clover:name="Income Exchange Date" clover:dataType="java.lang.String">$0.Income_Exchange_Date</clover:element>
+          <clover:element clover:name="Personal Win" clover:dataType="java.lang.String">$0.Personal_Win</clover:element>
+          <clover:element clover:name="Manager Integration Id" clover:dataType="java.lang.String">$0.Manager_Integration_Id</clover:element>
+          <ChallengeQuestion clover:dataType="java.lang.String">$0.ChallengeQuestion</ChallengeQuestion>
+          <clover:element clover:name="Deduplication Match Score" clover:dataType="java.lang.String">$0.Deduplication_Match_Score</clover:element>
+          <clover:element clover:name="Job Title" clover:dataType="java.lang.String">$0.Job_Title</clover:element>
+          <clover:element clover:name="Manager Last Name" clover:dataType="java.lang.String">$0.Manager_Last_Name</clover:element>
+          <clover:element clover:name="Primary Address Mod Id" clover:dataType="java.lang.String">$0.Primary_Address_Mod_Id</clover:element>
+          <clover:element clover:name="Time Spent" clover:dataType="java.lang.String">$0.Time_Spent</clover:element>
+          <clover:element clover:name="Primary Responsibility Id" clover:dataType="java.lang.String">$0.Primary_Responsibility_Id</clover:element>
+          <clover:element clover:name="Primary Street Address" clover:dataType="java.lang.String">$0.Primary_Street_Address</clover:element>
+          <clover:element clover:name="Primary Personal Address Id" clover:dataType="java.lang.String">$0.Primary_Personal_Address_Id</clover:element>
+          <clover:element clover:name="Primary Address Name" clover:dataType="java.lang.String">$0.Primary_Address_Name</clover:element>
+          <clover:element clover:name="Invite To Seminars" clover:dataType="java.lang.String">$0.Invite_To_Seminars</clover:element>
+          <clover:element clover:name="Partnership Key Contact Flag" clover:dataType="java.lang.String">$0.Partnership_Key_Contact_Flag</clover:element>
+          <clover:element clover:name="Partnership Contact Flag" clover:dataType="java.lang.String">$0.Partnership_Contact_Flag</clover:element>
+          <clover:element clover:name="Person UId" clover:dataType="java.lang.String">$0.Person_UId</clover:element>
+          <clover:element clover:name="Manager Primary Organization Id" clover:dataType="java.lang.String">$0.Manager_Primary_Organization_Id</clover:element>
+          <clover:element clover:name="Reference For Code" clover:dataType="java.lang.String">$0.Reference_For_Code</clover:element>
+          <clover:element clover:name="Last Clnse Date" clover:dataType="java.lang.String">$0.Last_Clnse_Date</clover:element>
+          <Coach clover:dataType="java.lang.String">$0.Coach</Coach>
+          <Status clover:dataType="java.lang.String">$0.Status</Status>
+          <clover:element clover:name="ESP Org Status" clover:dataType="java.lang.String">$0.ESP_Org_Status</clover:element>
+          <Alias clover:dataType="java.lang.String">$0.Alias</Alias>
+          <clover:element clover:name="Primary Address Street Address3" clover:dataType="java.lang.String">$0.Primary_Address_Street_Address3</clover:element>
+          <clover:element clover:name="Primary Address Street Address2" clover:dataType="java.lang.String">$0.Primary_Address_Street_Address2</clover:element>
+          <clover:element clover:name="Primary Assignment System Flag" clover:dataType="java.lang.String">$0.Primary_Assignment_System_Flag</clover:element>
+          <clover:element clover:name="Account Partner Flag" clover:dataType="java.lang.String">$0.Account_Partner_Flag</clover:element>
+          <clover:element clover:name="Employee Number" clover:dataType="java.lang.String">$0.Employee_Number</clover:element>
+          <clover:element clover:name="Active Status" clover:dataType="java.lang.String">$0.Active_Status</clover:element>
+          <clover:element clover:name="Suppress All Faxes" clover:dataType="java.lang.String">$0.Suppress_All_Faxes</clover:element>
+          <clover:element clover:name="Middle Name" clover:dataType="java.lang.String">$0.Middle_Name</clover:element>
+          <clover:element clover:name="Reference Flag" clover:dataType="java.lang.String">$0.Reference_Flag</clover:element>
+          <clover:element clover:name="Preferred Communications" clover:dataType="java.lang.String">$0.Preferred_Communications</clover:element>
+          <clover:element clover:name="Decision Orientation" clover:dataType="java.lang.String">$0.Decision_Orientation</clover:element>
+          <clover:element clover:name="Price List" clover:dataType="java.lang.String">$0.Price_List</clover:element>
+          <clover:element clover:name="Account Mod Id" clover:dataType="java.lang.String">$0.Account_Mod_Id</clover:element>
+          <clover:element clover:name="M/M" clover:dataType="java.lang.String">$0.M_M</clover:element>
+          <Assistant clover:dataType="java.lang.String">$0.Assistant</Assistant>
+          <Comment clover:dataType="java.lang.String">$0.Comment</Comment>
+          <clover:element clover:name="Approval Authority" clover:dataType="java.lang.String">$0.Approval_Authority</clover:element>
+          <clover:element clover:name="M/F" clover:dataType="java.lang.String">$0.M_F</clover:element>
+          <clover:element clover:name="Approval Status" clover:dataType="java.lang.String">$0.Approval_Status</clover:element>
+          <clover:element clover:name="Org Status" clover:dataType="java.lang.String">$0.Org_Status</clover:element>
+          <clover:element clover:name="Dock Flag" clover:dataType="java.lang.String">$0.Dock_Flag</clover:element>
+          <clover:element clover:name="Primary Organization Id" clover:dataType="java.lang.String">$0.Primary_Organization_Id</clover:element>
+          <clover:element clover:name="Birth Date" clover:dataType="java.lang.String">$0.Birth_Date</clover:element>
+          <clover:element clover:name="Currency Code" clover:dataType="java.lang.String">$0.Currency_Code</clover:element>
+          <clover:element clover:name="Last Name" clover:dataType="java.lang.String">$0.Last_Name</clover:element>
+          <clover:element clover:name="DUNS Number" clover:dataType="java.lang.String">$0.DUNS_Number</clover:element>
+          <clover:element clover:name="Party Name" clover:dataType="java.lang.String">$0.Party_Name</clover:element>
+          <clover:element clover:name="Primary City" clover:dataType="java.lang.String">$0.Primary_City</clover:element>
+          <clover:element clover:name="PIM Current User Sync Flag" clover:dataType="java.lang.String">$0.PIM_Current_User_Sync_Flag</clover:element>
+          <clover:element clover:name="Price List Integration Id" clover:dataType="java.lang.String">$0.Price_List_Integration_Id</clover:element>
+          <clover:element clover:name="Hired By" clover:dataType="java.lang.String">$0.Hired_By</clover:element>
+          <clover:element clover:name="Account Primary Bill To Person Id" clover:dataType="java.lang.String">$0.Account_Primary_Bill_To_Person_Id</clover:element>
+          <clover:element clover:name="Decision Criteria Business" clover:dataType="java.lang.String">$0.Decision_Criteria_Business</clover:element>
+          <clover:element clover:name="Deduplication Object Id" clover:dataType="java.lang.String">$0.Deduplication_Object_Id</clover:element>
+          <clover:element clover:name="Economic Buyer" clover:dataType="java.lang.String">$0.Economic_Buyer</clover:element>
+          <clover:element clover:name="User Status" clover:dataType="java.lang.String">$0.User_Status</clover:element>
+          <Spouse clover:dataType="java.lang.String">$0.Spouse</Spouse>
+          <clover:element clover:name="Primary PIM Sync Owner Id" clover:dataType="java.lang.String">$0.Primary_PIM_Sync_Owner_Id</clover:element>
+          <clover:element clover:name="Primary State" clover:dataType="java.lang.String">$0.Primary_State</clover:element>
+          <clover:element clover:name="Evidence to support rating" clover:dataType="java.lang.String">$0.Evidence_to_support_rating</clover:element>
+          <clover:element clover:name="Price List Id" clover:dataType="java.lang.String">$0.Price_List_Id</clover:element>
+          <Alignment clover:dataType="java.lang.String">$0.Alignment</Alignment>
+          <clover:element clover:name="Email Address" clover:dataType="java.lang.String">$0.Email_Address</clover:element>
+          <clover:element clover:name="Primary Organization" clover:dataType="java.lang.String">$0.Primary_Organization</clover:element>
+          <clover:element clover:name="Survey Language" clover:dataType="java.lang.String">$0.Survey_Language</clover:element>
+          <clover:element clover:name="Relationship Strategy" clover:dataType="java.lang.String">$0.Relationship_Strategy</clover:element>
+          <clover:element clover:name="Manager Primary Organization" clover:dataType="java.lang.String">$0.Manager_Primary_Organization</clover:element>
+          <clover:element clover:name="Employee Login Name" clover:dataType="java.lang.String">$0.Employee_Login_Name</clover:element>
+          <clover:element clover:name="Last Update - SDQ" clover:dataType="java.lang.String">$0.Last_Update_SDQ</clover:element>
+          <clover:element clover:name="Time Zone Name" clover:dataType="java.lang.String">$0.Time_Zone_Name</clover:element>
+          <clover:element clover:name="Primary Personal Payment Profile Id" clover:dataType="java.lang.String">$0.Primary_Personal_Payment_Profile_Id</clover:element>
+          <clover:element clover:name="Last KeyGen Date" clover:dataType="java.lang.String">$0.Last_KeyGen_Date</clover:element>
+          <clover:element clover:name="Assignment Excluded" clover:dataType="java.lang.String">$0.Assignment_Excluded</clover:element>
+          <clover:element clover:name="Manager UId" clover:dataType="java.lang.String">$0.Manager_UId</clover:element>
+          <clover:element clover:name="Preferred Language Code" clover:dataType="java.lang.String">$0.Preferred_Language_Code</clover:element>
+          <CSN clover:dataType="java.lang.String">$0.CSN</CSN>
+          <clover:element clover:name="Political Strategy" clover:dataType="java.lang.String">$0.Political_Strategy</clover:element>
+          <clover:element clover:name="Integration Id" clover:dataType="java.lang.String">$0.Integration_Id</clover:element>
+          <clover:element clover:name="Send Newsletter" clover:dataType="java.lang.String">$0.Send_Newsletter</clover:element>
+          <clover:element clover:name="Send Promotions" clover:dataType="java.lang.String">$0.Send_Promotions</clover:element>
+          <Agenda clover:dataType="java.lang.String">$0.Agenda</Agenda>
+          <clover:element clover:name="S-S Instance Id" clover:dataType="java.lang.String">$0.S_S_Instance_Id</clover:element>
+          <clover:element clover:name="Primary Postal Code" clover:dataType="java.lang.String">$0.Primary_Postal_Code</clover:element>
+          <clover:element clover:name="Start Date" clover:dataType="java.lang.String">$0.Start_Date</clover:element>
+          <clover:element clover:name="Suppress All Mailings" clover:dataType="java.lang.String">$0.Suppress_All_Mailings</clover:element>
+          <clover:element clover:name="DeDup Key Modification Date" clover:dataType="java.lang.String">$0.DeDup_Key_Modification_Date</clover:element>
+          <clover:element clover:name="Work Phone Extension" clover:dataType="java.lang.String">$0.Work_Phone_Extension</clover:element>
+          <clover:element clover:name="Educational Background" clover:dataType="java.lang.String">$0.Educational_Background</clover:element>
+          <clover:element clover:name="Suppress All Calls" clover:dataType="java.lang.String">$0.Suppress_All_Calls</clover:element>
+          <clover:element clover:name="Business Results" clover:dataType="java.lang.String">$0.Business_Results</clover:element>
+          <clover:element clover:name="ESP Political Analysis" clover:dataType="java.lang.String">$0.ESP_Political_Analysis</clover:element>
+          <clover:element clover:name="Technical Buyer" clover:dataType="java.lang.String">$0.Technical_Buyer</clover:element>
+          <clover:element clover:name="Political Analysis" clover:dataType="java.lang.String">$0.Political_Analysis</clover:element>
+          <clover:element clover:name="Invoice Comments" clover:dataType="java.lang.String">$0.Invoice_Comments</clover:element>
+          <Responsibilities clover:dataType="java.lang.String">$0.Responsibilities</Responsibilities>
+          <clover:element clover:name="Time Zone" clover:dataType="java.lang.String">$0.Time_Zone</clover:element>
+          <Education clover:dataType="java.lang.String">$0.Education</Education>
+          <clover:element clover:name="Cellular Phone #" clover:dataType="java.lang.String">$0.Cellular_Phone</clover:element>
+          <clover:element clover:name="Primary Account Name" clover:dataType="java.lang.String">$0.Primary_Account_Name</clover:element>
+          <clover:element clover:name="Joined Account Id" clover:dataType="java.lang.String">$0.Joined_Account_Id</clover:element>
+          <clover:element clover:name="Project Role" clover:dataType="java.lang.String">$0.Project_Role</clover:element>
+          <clover:element clover:name="Decision Criteria Product" clover:dataType="java.lang.String">$0.Decision_Criteria_Product</clover:element>
+          <clover:element clover:name="Party Type Code" clover:dataType="java.lang.String">$0.Party_Type_Code</clover:element>
+        </Contact>
+      </item>
+    </clover:collection>
+  </SiebelMessage>
+</clover:element>]]></attr>
+<attr name="_data_format"><![CDATA[MAP]]></attr>
+<attr name="__metadata"><![CDATA[true]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="BEAN_READER0:0" guiBendpoints="" id="Edge2" inPort="Port 0 (in)" metadata="3fa48697-ec45-49c0-8a98-456f21f15299" outPort="Port 0 (out)" toNode="FOREACH_CONTACT_LIST_OF_CONTACT_X0020IO:0"/>
+<Edge debugMode="true" fromNode="FOREACH_CONTACT_LIST_OF_CONTACT_X0020IO:0" guiBendpoints="" id="Edge3" inPort="Port 0 (in)" metadata="8159c844-82d9-4b4b-8d2d-cf91f65bf13d" outPort="Port 0 (out)" toNode="MAP_WRITER0:0"/>
+</Phase>
+</Graph>

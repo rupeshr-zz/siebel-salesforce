@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:tracking="http://www.mulesoft.org/schema/mule/ee/tracking" xmlns:json="http://www.mulesoft.org/schema/mule/json" xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper" xmlns:sfdc="http://www.mulesoft.org/schema/mule/sfdc" xmlns:siebel-io="http://www.mulesoft.org/schema/mule/siebel-io" xmlns:siebel="http://www.mulesoft.org/schema/mule/siebel" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.5.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/siebel http://www.mulesoft.org/schema/mule/siebel/1.0/mule-siebel.xsd
+http://www.mulesoft.org/schema/mule/siebel-io http://www.mulesoft.org/schema/mule/siebel-io/1.0/mule-siebel-io.xsd
+http://www.mulesoft.org/schema/mule/sfdc http://www.mulesoft.org/schema/mule/sfdc/current/mule-sfdc.xsd
+http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schema/mule/ee/data-mapper/current/mule-data-mapper.xsd
+http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd
+http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/mule/ee/tracking/current/mule-tracking-ee.xsd">
+    <siebel-io:config name="Oracle_Siebel_Integration_Object" integrationObjectUser="SADMIN" integrationObjectPassword="SADMIN" integrationObjectServer="23.21.233.175" integrationObjectServerName="SBA_82" integrationObjectObjectManager="EAIObjMgr_enu" dataSenseFilterQuery="[Name] = 'Action_IO' OR [Name] = 'Contact IO'" dataSenseFlatFields="false" doc:name="Oracle Siebel Integration Object">
+        <siebel-io:connection-pooling-profile initialisationPolicy="INITIALISE_ONE" exhaustedAction="WHEN_EXHAUSTED_GROW"/>
+    </siebel-io:config>
+    <sfdc:config name="Salesforce" username="jose.amenta@mulesoft.com.devel" password="Jose.1234" securityToken="hBMiN2a99BTcDbaFiUPSdAAL" url="https://test.salesforce.com/services/Soap/u/28.0" doc:name="Salesforce">
+        <sfdc:connection-pooling-profile initialisationPolicy="INITIALISE_ONE" exhaustedAction="WHEN_EXHAUSTED_GROW"/>
+    </sfdc:config>
+    <siebel:config name="Oracle_Siebel_Business_Object" user="SADMIN" password="SADMIN" server="23.21.233.175" serverName="SBA_82" dataSenseFilterQueryBusComp="[Name] = 'Contact'" dataSenseFilterQueryBusObjects="[Name] = 'Contact'" doc:name="Oracle Siebel Business Object" objectManager="EAIObjMgr_enu">
+        <siebel:connection-pooling-profile initialisationPolicy="INITIALISE_ONE" exhaustedAction="WHEN_EXHAUSTED_GROW"/>
+    </siebel:config>
+    <data-mapper:config name="listcontact.contact_to_listcontact" transformationGraphPath="list&lt;contact.contact&gt;_to_list&lt;contact&gt;.grf" doc:name="listcontact.contact_to_listcontact"/>
+    <data-mapper:config name="listcontact_to_contact_io" transformationGraphPath="list&lt;contact&gt;_to_contact_io.grf" doc:name="listcontact_to_contact_io"/>
+<!--     <flow name="Poll_Siebel_2_Salesforce" doc:name="Poll_Siebel_2_Salesforce" processingStrategy="synchronous"> -->
+<!--         <poll doc:name="Poll"> -->
+<!--             <fixed-frequency-scheduler frequency="10000"/> -->
+<!--             <watermark variable="lastUpdate" default-expression="#[new org.joda.time.DateTime().withZone(org.joda.time.DateTimeZone.forID(&quot;PST8PDT&quot;)).minusSeconds(5).toString(&quot;MM/dd/yyyy HH:mm:ss&quot;)]" update-expression="#[new org.joda.time.DateTime().withZone(org.joda.time.DateTimeZone.forID(&quot;PST8PDT&quot;)).minusSeconds(5).toString(&quot;MM/dd/yyyy HH:mm:ss&quot;)]"/> -->
+<!--          	<flow-ref name="Siebel2Salesforce_flow" doc:name="Flow Reference"/>		 -->
+<!--         </poll> -->
+<!--          <logger message="Polling from Siebel #[payload]" level="INFO" doc:name="Logger"/> -->
+<!--     </flow> -->
+<!--     <sub-flow name="Siebel2Salesforce_flow" doc:name="Siebel2Salesforce_flow"> -->
+<!--         <siebel:query-business-components config-ref="Oracle_Siebel_Business_Object" businessObjectComponentType="Contact.Contact" searchExpression="[Last Update - SDQ] &gt; '#[flowVars.lastUpdate]'" doc:name="Oracle Siebel Business Object"> -->
+<!--                 <siebel:fields-to-retrieve> -->
+<!--                     <siebel:fields-to-retrieve>Last Name</siebel:fields-to-retrieve> -->
+<!--                     <siebel:fields-to-retrieve>Email Address</siebel:fields-to-retrieve> -->
+<!--                     <siebel:fields-to-retrieve>First Name</siebel:fields-to-retrieve> -->
+<!--                     <siebel:fields-to-retrieve>Primary Organization</siebel:fields-to-retrieve> -->
+<!--                     <siebel:fields-to-retrieve>Personal Contact</siebel:fields-to-retrieve> -->
+<!--                     <siebel:fields-to-retrieve>Employee Number</siebel:fields-to-retrieve> -->
+<!--                     <siebel:fields-to-retrieve>Account Integration Id</siebel:fields-to-retrieve> -->
+<!--                 </siebel:fields-to-retrieve> -->
+<!--             </siebel:query-business-components> -->
+<!--         <logger message="LastUpdate: #[flowVars.lastUpdate] Query Object: #[payload]" level="INFO" doc:name="Logger"/> -->
+<!--         <data-mapper:transform config-ref="listcontact.contact_to_listcontact" doc:name="Map to Salesforce"/> -->
+<!--         <sfdc:create config-ref="Salesforce" type="Contact" doc:name="Salesforce"> -->
+<!--             <sfdc:objects ref="#[payload]"/> -->
+<!--         </sfdc:create> -->
+<!--         <set-payload value="Success: #[payload]" doc:name="Set Payload"/> -->
+<!--     </sub-flow> -->
+    <flow name="Salesforce2Siebel_Streaming_flow" doc:name="Salesforce2Siebel_Streaming_flow">
+        <sfdc:subscribe-topic config-ref="Salesforce" topic="/ContactsDemo" doc:name="Salesforce (Streaming)"/>
+        <data-mapper:transform config-ref="listcontact_to_contact_io" doc:name="Map Contact to Siebel"/>
+        <siebel-io:execute-siebel-adapter config-ref="Oracle_Siebel_Integration_Object" integrationObject="Contact IO" method="UPSERT" doc:name="Oracle Siebel Integration Object">
+            <siebel-io:input-properties ref="#[payload]"/>
+        </siebel-io:execute-siebel-adapter>
+        <json:object-to-json-transformer doc:name="Object to JSON"/>
+        <logger message="Siebel Result: #[payload]" level="INFO" doc:name="Logger"/>
+    </flow>
+</mule>
