@@ -20,3 +20,8 @@ SFDC-Siebel-Streaming (use case 3)
 
 Detailed script for executing projects (requires permission):
 https://docs.google.com/a/mulesoft.com/document/d/1f0Vkzsn4aWgIu7a4mJK3HOS0IGDaPihcvrqmTX-P8wQ/edit#
+
+UPDATE: Newer versions of Siebel-Salesforce integration apps are now officially available as MuleSoft certified templates on Anypoint Exchange. You can download the templates (Mule app) for free and run it on Anypoint Studio. Make sure you change the connection properties to point to your instances. 
+
+https://www.mulesoft.com/exchange#!/?searchTerm=siebel&filters=Salesforce&sortBy=rating
+
